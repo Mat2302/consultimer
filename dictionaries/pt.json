@@ -1,5 +1,12 @@
 {
-    "home" : {
-        "welcome": "Bem-vindo à Consultimer"
+  "home": {
+    "hero": {
+      "title": "Empresa especializada em serviços para data center",
+      "description": "Gerenciamos toda a operação dentro de um data center desde o projeto, construção, certificação e manutenção.",
+      "button": "Conheça Nossas Soluções"
+    },
+    "clients_section": {
+      "title": "Nossos Clientes"
     }
+  }
 }

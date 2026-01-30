@@ -1,5 +1,12 @@
 {
-    "home" : {
-        "welcome": "Welcome to Consultimer"
+  "home": {
+    "hero": {
+      "title": "Company specialized in data center services",
+      "description": "We manage the entire data center operation, from design and construction to certification and maintenance.",
+      "button": "Discover Our Solutions"
+    },
+    "clients_section": {
+      "title": "Our Clients"
     }
+  }
 }

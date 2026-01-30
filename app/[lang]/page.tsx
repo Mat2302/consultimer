@@ -1,4 +1,5 @@
 import { getDictionary } from '../get-dictionary'
+import HeroSection from '@/components/HeroSection'
 
 interface PageProps {
   params: Promise<{ lang: 'en' | 'pt' | 'es' }>
@@ -9,20 +10,19 @@ export default async function Home({ params }: PageProps) {
   const dict = await getDictionary(lang)
 
   return (
-    <div className="flex min-h-screen flex-col items-center justify-center bg-gray-100 gap-4">
-      <h1 className="text-4xl font-bold text-blue-900">
-        {dict.home.welcome}
-      </h1>
-      
-      <p className="text-gray-500 font-mono">
-        Idioma detectado: {lang.toUpperCase()}
-      </p>
-
-      <div className="flex gap-2 text-sm text-blue-600 underline">
-        <a href="/pt">Português</a>
-        <a href="/en">English</a>
-        <a href="/es">Español</a>
-      </div>
-    </div>
+    <main className="min-h-screen bg-white">
+      <HeroSection dict={dict.home.hero} />
+      <section className="py-16 bg-white text-center">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-gray-800 mb-12">
+            {dict.home.clients_section.title}
+          </h2>
+          
+          <div className="text-gray-400 p-10 border-2 border-dashed border-gray-200 rounded-lg">
+            [Espaço para Logos dos Clientes]
+          </div>
+        </div>
+      </section>
+    </main>
   )
 }

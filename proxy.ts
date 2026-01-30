@@ -19,11 +19,22 @@ export function proxy(request: NextRequest) {
   )
   if (pathnameHasLocale) return
 
+  const firstSegment = pathname.split('/')[1]
+  const isUnknownLocale = firstSegment &&
+    /^[a-z]{2}$/i.test(firstSegment) &&
+    !locales.includes(firstSegment);
+
+  if (isUnknownLocale) {
+    const locale = getLocale(request)
+    request.nextUrl.pathname = `/${locale}`
+    return NextResponse.redirect(request.nextUrl)
+  }
+
   const locale = getLocale(request)
   request.nextUrl.pathname = `/${locale}${pathname}`
   return NextResponse.redirect(request.nextUrl)
 }
 
 export const config = {
-  matcher: ['/((?!_next|favicon.ico|assets|images).*)'],
+  matcher: ['/((?!api|_next|_vercel|.*\\..*).*)']
 }
