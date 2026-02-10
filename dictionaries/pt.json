@@ -8,5 +8,16 @@
     "clients_section": {
       "title": "Nossos Clientes"
     }
+  },
+  "navbar": {
+    "home": "Início",
+    "about_us": "Sobre",
+    "services": "Serviços",
+    "products": "Produtos",
+    "brands": "Marcas",
+    "news": "Notícias",
+    "careers": "Trabalhe Conosco",
+    "contact": "Contato",
+    "visit_store": "Visite a Loja"
   }
 }

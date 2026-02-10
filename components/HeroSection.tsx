@@ -10,7 +10,7 @@ interface HeroSectionProps {
 
 export default function HeroSection({ dict }: HeroSectionProps) {
   return (
-    <section className="text-consultimer-text-label relative w-full h-160 items-center">
+    <section className="text-consultimer-white-label relative w-full h-160 items-center">
       <div className="absoule isnet-0 -z-10 py-20">
           <Image src="/hero-bg.jpg" alt="Empresa especializada em Data Center" fill
             className="object-cover object-center md:object-right" priority/>
