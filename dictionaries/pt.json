@@ -19,5 +19,10 @@
     "careers": "Trabalhe Conosco",
     "contact": "Contato",
     "visit_store": "Visite a Loja"
+  },
+  "footer": {
+    "description": "A Consultimer é especializada em serviços para data center, gerenciando toda a operação desde o projeto, construção e manutenção.",
+    "rights_reserved": "Todos os direitos reservados",
+    "privacy_policy": "Política de Privacidade"
   }
 }

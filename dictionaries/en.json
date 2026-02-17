@@ -19,5 +19,10 @@
     "careers": "Careers",
     "contact": "Contact",
     "visit_store": "Visit Store"
+  },
+  "footer": {
+    "description": "Consultimer specializes in data center services, managing the entire operation from design and construction to maintenance.",
+    "rights_reserved": "All rights reserved",
+    "privacy_policy": "Privacy Policy"
   }
 }

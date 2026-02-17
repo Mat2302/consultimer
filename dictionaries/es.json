@@ -19,5 +19,10 @@
     "careers": "Trabaja con Nosotros",
     "contact": "Contacto",
     "visit_store": "Acceder a la Tienda"
+  },
+  "footer": {
+    "description": "Consultimer se especializa en servicios para data centers, gestionando toda la operación desde el diseño y la construcción hasta el mantenimiento.",
+    "rights_reserved": "Todos los derechos reservados",
+    "privacy_policy": "Política de Privacidad"
   }
 }

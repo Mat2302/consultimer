@@ -1,5 +1,6 @@
 import "../globals.css";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import { getDictionary } from "@/app/get-dictionary";
 import { Geist, Geist_Mono } from "next/font/google";
 import type { Metadata } from "next";
@@ -35,6 +36,7 @@ export default async function RootLayout({
       <body>
         <Navbar dict={dictionary.navbar} /> 
         {children}
+        <Footer dict={dictionary.footer} />
       </body>
     </html>
   );
