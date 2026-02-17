@@ -48,7 +48,7 @@ export default function Navbar({ dict }: NavbarProps) {
   ];
 
   return (
-    <nav className='bg-black text-consultimer-white-label w-full z-50 border-b border-gray-800'>
+    <nav className='bg-black text-consultimer-white-label w-full z-50 border-b fixed top-0 left-0 border-gray-800'>
       <div className='container mx-auto px-6 h-20 flex justify-between items-center'>
         <Link href={getLocalizedHref('/')} className="flex items-center gap-2">
           <div className="relative w-40 h-10">
@@ -71,7 +71,7 @@ export default function Navbar({ dict }: NavbarProps) {
           })}
         </div>
 
-        <div className="hidden md:flex items-center gap-6">
+        <div className="hidden xl:flex items-center gap-6">
           <Link href={getLocalizedHref('/products')}
             className="flex items-center gap-2 text-consultimer-orange hover:text-orange-400 font-semibold transition">
               <ShoppingCart size={20} />
@@ -119,6 +119,23 @@ export default function Navbar({ dict }: NavbarProps) {
               className="text-consultimer-orange font-bold flex gap-2">
                 <ShoppingCart size={18} /> {dict.visit_store}
             </Link>
+            <div className="flex items-center gap-3">
+              <Link href={switchLocale('pt')}>
+                <div className={`relative w-8 h-8 hover:scale-110 transition ${currentLocale === 'pt' ? 'opacity-100' : 'opacity-50'}`}>
+                  <Image src='/brasil_logo.png' alt='Brasil Logo' fill className="object-contain"/>
+                </div>
+              </Link>
+              <Link href={switchLocale('en')}>
+                <div className={`relative w-8 h-8 hover:scale-110 transition ${currentLocale === 'en' ? 'opacity-100' : 'opacity-50'}`}>
+                  <Image src='/usa_logo.png' alt='USA Logo' fill className="object-contain"/>
+                </div>
+              </Link>
+              <Link href={switchLocale('es')}>
+                <div className={`relative w-8 h-8 hover:scale-110 transition ${currentLocale === 'es' ? 'opacity-100' : 'opacity-50'}`}>
+                  <Image src='/spain_logo.png' alt='Spain Logo' fill className="object-contain"/>
+                </div>
+              </Link>
+            </div>
           </div>
         </div>
       )}

@@ -33,7 +33,7 @@ export default async function RootLayout({
   const dictionary = await getDictionary(lang);
   return (
     <html lang={lang}>
-      <body>
+      <body className="pt-20">
         <Navbar dict={dictionary.navbar} /> 
         {children}
         <Footer dict={dictionary.footer} />
