@@ -3,9 +3,18 @@
 @theme {
   --color-consultimer-dark: #0A1128;
   --color-consultimer-orange: #FF6600;
-
   --color-consultimer-orange-hover: #F57C00;
-
   --color-consultimer-white-label: #FFFFFF;
   --color-consultimer-description-homepage-header: #E5E7EB;
+
+  --animate-scroll: scroll 40s linear infinite;
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-50%);
+    }
+  }
 }
