@@ -63,7 +63,6 @@ export default function ExperienceSection({ dict }: ExperienceSectionProps) {
                 />
               </div>
 
-              {/* Pontos Interativos (Markers) */}
               {locations.map((loc) => (
                 <div
                   key={loc.id}

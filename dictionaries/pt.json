@@ -19,6 +19,82 @@
         "santiago": "Santiago, Chile",
         "cosmopolis": "Cosmópolis, Brasil"
       }
+    },
+    "services_section": {
+      "title": "Nossos Serviços para Data Center",
+      "cta_card": "Saiba Mais",
+      "items": [
+        {
+          "id": "infra",
+          "image": "/services/infra.png",
+          "title": "Infraestrutura de Rede",
+          "description": "Entregamos tranquilidade, segurança e resultados para conectividade de missão crítica. Fazemos a instalação e certificação de todo cabeamento.",
+          "link": "/services/infrastructure"
+        },
+        {
+          "id": "energy",
+          "image": "/services/energy.png",
+          "title": "Eficiência Energética",
+          "description": "Criamos soluções para preencher os espaços onde ocorre o fluxo de ar com soluções e peças personalizadas.",
+          "link": "/services/energy"
+        },
+        {
+          "id": "office",
+          "image": "/services/office.png",
+          "title": "Office Installation",
+          "description": "Realizamos instalações elétrica, iluminação, alvenaria, mudanças de layout e projetos de decoração em escritórios.",
+          "link": "/services/office"
+        },
+        {
+          "id": "deployment",
+          "image": "/services/deployment.png",
+          "title": "Deployment",
+          "description": "Lançamos todos os cabos de rede entre as posições necessárias e ativamos os equipamentos.",
+          "link": "/services/deployment"
+        },
+        {
+          "id": "smarthands",
+          "image": "/services/smarthands.png",
+          "title": "Smart Hands",
+          "description": "Gerenciamento de infraestrutura, correções, testes, instalações personalizadas e assistência para soluções de problemas de hardwares e cabeamento.",
+          "link": "/services/smart-hands"
+        },
+        {
+          "id": "moves",
+          "image": "/services/moves.png",
+          "title": "Technical Moves",
+          "description": "Embalamos e realocamos os equipamentos em qualquer lugar do território nacional.",
+          "link": "/services/moves"
+        },
+        {
+          "id": "corpnet",
+          "image": "/services/corpnet.png",
+          "title": "Corpnet",
+          "description": "Instalação de infraestrutura de rede para comunicação entre racks e estações de trabalho da rede corporativa.",
+          "link": "/services/corpnet"
+        },
+        {
+          "id": "fitout",
+          "image": "/services/fitout.png",
+          "title": "Fitout",
+          "description": "Montagem de infraestrutura e passagem de cabos trunk para interligação de salas e fileiras de network com fileiras de servidores.",
+          "link": "/services/fitout"
+        },
+        {
+          "id": "comissionamento",
+          "image": "/services/comissionamento.png",
+          "title": "Comissionamento",
+          "description": "Garantimos que cada componente ou equipamento interligado a infraestrutura de um datacenter funcione de maneira adequada.",
+          "link": "/services/comissionamento"
+        },
+        {
+          "id": "enclausuramento",
+          "image": "/services/enclausuramento.jpg",
+          "title": "Enclausuramento",
+          "description": "O serviço desenvolvido com o objetivo de reduzir o PUE (Power Usage Effectiveness) em Data Centers.",
+          "link": "/services/enclausuramento"
+        }
+      ]
     }
   },
   "navbar": {

@@ -19,6 +19,82 @@
         "santiago": "Santiago, Chile",
         "cosmopolis": "Cosmópolis, Brazil"
       }
+    },
+    "services_section": {
+      "title": "Our Data Center Services",
+      "cta_card": "Learn More",
+      "items": [
+        {
+          "id": "infra",
+          "image": "/services/infra.png",
+          "title": "Network Infrastructure",
+          "description": "We deliver peace of mind, security, and results for mission-critical connectivity. We perform the installation and certification of all cabling.",
+          "link": "/services/infrastructure"
+        },
+        {
+          "id": "energy",
+          "image": "/services/energy.png",
+          "title": "Energy Efficiency",
+          "description": "We create solutions to fill the spaces where airflow occurs with customized solutions and parts.",
+          "link": "/services/energy"
+        },
+        {
+          "id": "office",
+          "image": "/services/office.png",
+          "title": "Office Installation",
+          "description": "We perform electrical installations, lighting, masonry, layout changes, and office decoration projects.",
+          "link": "/services/office"
+        },
+        {
+          "id": "deployment",
+          "image": "/services/deployment.png",
+          "title": "Deployment",
+          "description": "We deploy all network cables between the necessary positions and activate the equipment.",
+          "link": "/services/deployment"
+        },
+        {
+          "id": "smarthands",
+          "image": "/services/smarthands.png",
+          "title": "Smart Hands",
+          "description": "Infrastructure management, fixes, testing, custom installations, and assistance for hardware and cabling troubleshooting.",
+          "link": "/services/smart-hands"
+        },
+        {
+          "id": "moves",
+          "image": "/services/moves.png",
+          "title": "Technical Moves",
+          "description": "We pack and relocate equipment anywhere within the national territory.",
+          "link": "/services/moves"
+        },
+        {
+          "id": "corpnet",
+          "image": "/services/corpnet.png",
+          "title": "Corpnet",
+          "description": "Installation of network infrastructure for communication between racks and corporate network workstations.",
+          "link": "/services/corpnet"
+        },
+        {
+          "id": "fitout",
+          "image": "/services/fitout.png",
+          "title": "Fitout",
+          "description": "Infrastructure assembly and trunk cable routing for interconnecting rooms and network rows with server rows.",
+          "link": "/services/fitout"
+        },
+        {
+          "id": "comissionamento",
+          "image": "/services/comissionamento.png",
+          "title": "Commissioning",
+          "description": "We ensure that every component or equipment interconnected to the data center infrastructure functions properly.",
+          "link": "/services/comissionamento"
+        },
+        {
+          "id": "enclausuramento",
+          "image": "/services/enclausuramento.jpg",
+          "title": "Containment",
+          "description": "A service developed with the objective of reducing PUE (Power Usage Effectiveness) in Data Centers.",
+          "link": "/services/enclausuramento"
+        }
+      ]
     }
   },
   "navbar": {

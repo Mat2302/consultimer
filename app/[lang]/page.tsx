@@ -2,6 +2,7 @@ import { getDictionary } from '../get-dictionary'
 import HeroSection from '@/components/HeroSection'
 import ClientsSection from '@/components/ClientsSection'
 import AboutExperienceSection from '@/components/AboutExperienceSection'
+import ServicesCarousel from '@/components/ServicesCarousel'
 
 interface PageProps {
   params: Promise<{ lang: 'en' | 'pt' | 'es' }>
@@ -16,6 +17,7 @@ export default async function Home({ params }: PageProps) {
       <HeroSection dict={dict.home.hero} />
       <ClientsSection dict={dict.home.clients_section} />
       <AboutExperienceSection dict={dict.home.about_experience_section} />
+      <ServicesCarousel dict={dict.home.services_section} />
     </main>
   )
 }
