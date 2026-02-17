@@ -26,7 +26,7 @@ export default function ClientsSection({ dict }: ClientsSectionProps) {
       </div>
       
       <div className="relative w-200 mx-auto mask-[linear-gradient(to_right,transparent_0,black_128px,black_calc(100%-128px),transparent_100%)]">
-        <div className="flex w-max animate-scroll gap-16 items-center">
+        <div className="flex w-max animate-scroll gap-15 items-center">
           {CLIENTS.map((client, index) => (
             <div 
               key={`logo-1-${index}`} 

@@ -7,6 +7,18 @@
     },
     "clients_section": {
       "title": "Nuestros Clientes"
+    },
+    "about_experience_section": {
+      "title": "Más de 20 años de experiencia en soluciones para data centers.",
+      "description_1": "Somos una empresa de tecnología especializada en servicios para data centers con un espíritu joven y transformador. Desarrollamos soluciones para infraestructura de data centers con agilidad, innovación y transparencia en cada etapa de nuestro servicio.",
+      "description_2": "Contamos con más de 20 años de experiencia en entornos de misión crítica e hyperscale que requieren alta confiabilidad y seguridad. Además, somos reconocidos por el constante desarrollo de las competencias técnicas de nuestro equipo y nuestros procesos.",
+      "cta_button": "Saber Más",
+      "locations": {
+        "miami": "Miami, USA",
+        "queretaro": "Querétaro, Mexico",
+        "santiago": "Santiago, Chile",
+        "cosmopolis": "Cosmópolis, Brazil"
+      }
     }
   },
   "navbar": {
