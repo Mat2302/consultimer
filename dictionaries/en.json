@@ -95,6 +95,97 @@
           "link": "/services/enclausuramento"
         }
       ]
+    },
+    "team_section": {
+      "title": "Our Team",
+      "subtitle": "Specialists in hyperscale and mission-critical operations and projects.",
+      "cards": [
+        {
+          "title": "Dedicated Teams",
+          "image": "/team/dedicadas.jpg", 
+          "items": [
+            "Critical facility operations",
+            "Preventive Maintenance",
+            "Fixes, testing, and custom hardware installations",
+            "Cabling troubleshooting assistance",
+            "Technical support"
+          ]
+        },
+        {
+          "title": "Project Teams",
+          "image": "/team/projetos.jpg",
+          "items": [
+            "Assembly of racks, wire mesh trays, and fiberrunner",
+            "Structured cabling",
+            "Decommissioning",
+            "Construction support",
+            "Certification and identification of all cabling"
+          ]
+        },
+        {
+          "title": "Support Teams",
+          "image": "/team/apoio.jpg",
+          "items": [
+            "Label printing for cable identification",
+            "Spreadsheet analysis and filtering for cable separation and equipment activation",
+            "Cleaning and organization",
+            "Teams to ensure the safety and quality of the services performed"
+          ]
+        }
+      ]
+    },
+    "differentials_section": {
+      "items": [
+        {
+          "id": "scalability",
+          "title": "Global Scalability",
+          "description": "Consultimer has a proven capacity to ensure consistent and reliable operations worldwide."
+        },
+        {
+          "id": "cost",
+          "title": "Cost Reduction",
+          "description": "Our operating model reduces costs, increases quality, and achieves an ideal balance between people, processes, and technology."
+        },
+        {
+          "id": "flexibility",
+          "title": "Flexibility and Speed",
+          "description": "Our highly adaptable service moves at the speed your business requires."
+        },
+        {
+          "id": "workforce",
+          "title": "Workforce",
+          "description": "Our training and development programs ensure highly effective teams and operations."
+        }
+      ]
+    },
+    "certifications_section": {
+      "title": "Certifications and Qualifications",
+      "description": "Consultimer is certified and accredited by world-renowned institutions in methodology, products, processes, and people, ensuring projects with quality, safety, and efficiency.",
+      "items": [
+        { "name": "Corning", "logo": "/certifications/corning.png" },
+        { "name": "Fluke", "logo": "/certifications/fluke.png" },
+        { "name": "CommScope", "logo": "/certifications/commscope.png" },
+        { "name": "Fujikura", "logo": "/certifications/fujikura.png" }
+      ]
+    },
+    "distributors_section": {
+      "title": "Authorized Distributor",
+      "items": [
+        { "name": "Ansell", "logo": "/distributors/ansell.png" },
+        { "name": "Hubbell", "logo": "/distributors/hubbell.png" },
+        { "name": "Waveshare", "logo": "/distributors/waveshare.png" },
+        { "name": "Ergotron", "logo": "/distributors/ergotron.png" },
+        { "name": "ServerLIFT", "logo": "/distributors/server-lift.png" },
+        { "name": "Allegheny", "logo": "/distributors/allegheny-shredders.jpg" }
+      ]
+    },
+    "cta_section": {
+      "title": "Ready to scale your infrastructure?",
+      "description": "Speak with our Data Center specialists and discover how Consultimer can ensure the security and efficiency of your project in Latin America.",
+      "quote": "Since our founding, our focus has been on loyalty to ethical principles and mutual respect.",
+      "button_primary": "Request a Proposal",
+      "button_secondary": "Questions on WhatsApp",
+      "whatsapp_message": "Hello! I want to speak with a specialist!"
     }
   },
   "navbar": {

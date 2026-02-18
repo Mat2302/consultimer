@@ -95,6 +95,97 @@
           "link": "/services/enclausuramento"
         }
       ]
+    },
+    "team_section": {
+      "title": "Nuestro Equipo",
+      "subtitle": "Especialistas en operaciones y proyectos de hiperescala y misión crítica.",
+      "cards": [
+        {
+          "title": "Equipos Dedicados",
+          "image": "/team/dedicadas.jpg", 
+          "items": [
+            "Operaciones de instalaciones críticas",
+            "Mantenimientos Preventivos",
+            "Correcciones, pruebas e instalaciones personalizadas de hardware",
+            "Asistencia para la resolución de problemas con el cableado",
+            "Soporte técnico"
+          ]
+        },
+        {
+          "title": "Equipos de Proyecto",
+          "image": "/team/projetos.jpg",
+          "items": [
+            "Montaje de racks, bandejas de rejilla y fiberrunner",
+            "Cableado estructurado",
+            "Descomisionamiento",
+            "Soporte de construcción",
+            "Certificación e identificación de todo el cableado"
+          ]
+        },
+        {
+          "title": "Equipos de Apoyo",
+          "image": "/team/apoio.jpg",
+          "items": [
+            "Impresión de etiquetas para identificación de cables",
+            "Análisis y filtrado de hojas de cálculo para separación de cables y activación en equipos",
+            "Limpieza y organización",
+            "Equipos para garantizar la seguridad y calidad del servicio realizado"
+          ]
+        }
+      ]
+    },
+    "differentials_section": {
+      "items": [
+        {
+          "id": "scalability",
+          "title": "Escalabilidad Global",
+          "description": "Consultimer tiene capacidad comprobada para garantizar operaciones consistentes y confiables en todo el mundo."
+        },
+        {
+          "id": "cost",
+          "title": "Reducción de Costos",
+          "description": "Nuestro modelo de operación reduce costos, aumenta la calidad y alcanza un equilibrio ideal entre personas, procesos y tecnología."
+        },
+        {
+          "id": "flexibility",
+          "title": "Flexibilidad y Velocidad",
+          "description": "Nuestro servicio altamente adaptable se mueve a la velocidad que su negocio necesita."
+        },
+        {
+          "id": "workforce",
+          "title": "Fuerza de Trabajo",
+          "description": "Nuestros programas de entrenamiento y desarrollo garantizan equipos y operaciones altamente eficaces."
+        }
+      ]
+    },
+    "certifications_section": {
+      "title": "Certificaciones y Calificaciones",
+      "description": "Consultimer está certificada y acreditada por instituciones reconocidas mundialmente en metodología, productos, procesos y personas, garantizando proyectos con calidad, seguridad y eficiencia.",
+      "items": [
+        { "name": "Corning", "logo": "/certifications/corning.png" },
+        { "name": "Fluke", "logo": "/certifications/fluke.png" },
+        { "name": "CommScope", "logo": "/certifications/commscope.png" },
+        { "name": "Fujikura", "logo": "/certifications/fujikura.png" }
+      ]
+    },
+    "distributors_section": {
+      "title": "Distribuidor Autorizado",
+      "items": [
+        { "name": "Ansell", "logo": "/distributors/ansell.png" },
+        { "name": "Hubbell", "logo": "/distributors/hubbell.png" },
+        { "name": "Waveshare", "logo": "/distributors/waveshare.png" },
+        { "name": "Ergotron", "logo": "/distributors/ergotron.png" },
+        { "name": "ServerLIFT", "logo": "/distributors/server-lift.png" },
+        { "name": "Allegheny", "logo": "/distributors/allegheny-shredders.jpg" }
+      ]
+    },
+    "cta_section": {
+      "title": "¿Listo para escalar su infraestructura?",
+      "description": "Hable con nuestros especialistas en Data Centers y descubra cómo Consultimer puede garantizar la seguridad y eficiencia de su proyecto en América Latina.",
+      "quote": "Desde nuestra fundación, nuestro enfoque es la fidelidad a los principios éticos y el respeto mutuo.",
+      "button_primary": "Solicitar Propuesta",
+      "button_secondary": "Dudas por WhatsApp",
+      "whatsapp_message": "¡Hola! ¡Quiero hablar con un especialista!"
     }
   },
   "navbar": {

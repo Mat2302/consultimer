@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import { SiFacebook, SiGmail, SiInstagram, SiLinkedin, SiPhonepe, SiTiktok, SiX } from "react-icons/si";
+import { Phone } from "lucide-react";
+import { SiFacebook, SiGmail, SiInstagram, SiLinkedin, SiTiktok, SiX } from "react-icons/si";
 
 
 interface FooterProps {
@@ -116,7 +117,7 @@ export default function Footer({ dict }: FooterProps) {
                       </a>
                     
                       <a href={`tel:${country.phone}`} className="flex items-center gap-2 hover:text-consultimer-orange transition">
-                        <SiPhonepe size={14} className="text-consultimer-orange" />
+                        <Phone size={14} className="text-consultimer-orange" />
                           {country.phone}
                       </a>
                     </div>
@@ -125,7 +126,6 @@ export default function Footer({ dict }: FooterProps) {
               </div>
             </div>
     
-            {/* BARRA INFERIOR: Copyright */}
             <div className="border-t border-zinc-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
               <p> © 2012 - {new Date().getFullYear()} Consultimer. {dict.rights_reserved}
               </p>

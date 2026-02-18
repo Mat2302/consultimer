@@ -1,8 +1,15 @@
 import { getDictionary } from '../get-dictionary'
-import HeroSection from '@/components/HeroSection'
-import ClientsSection from '@/components/ClientsSection'
-import AboutExperienceSection from '@/components/AboutExperienceSection'
-import ServicesCarousel from '@/components/ServicesCarousel'
+import { 
+  HeroSection,
+  ClientsSection,
+  AboutExperienceSection,
+  ServicesCarousel,
+  TeamSection,
+  DifferentialsSection,
+  CertificationsSection,
+  DistributorsSection,
+  CTASection
+} from '@/components/home'
 
 interface PageProps {
   params: Promise<{ lang: 'en' | 'pt' | 'es' }>
@@ -18,6 +25,11 @@ export default async function Home({ params }: PageProps) {
       <ClientsSection dict={dict.home.clients_section} />
       <AboutExperienceSection dict={dict.home.about_experience_section} />
       <ServicesCarousel dict={dict.home.services_section} />
+      <TeamSection dict={dict.home.team_section} />
+      <DifferentialsSection dict={dict.home.differentials_section} />
+      <CertificationsSection dict={dict.home.certifications_section} />
+      <DistributorsSection dict={dict.home.distributors_section} />
+      <CTASection dict={dict.home.cta_section} lang={lang} />
     </main>
   )
 }

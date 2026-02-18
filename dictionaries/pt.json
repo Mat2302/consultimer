@@ -95,6 +95,97 @@
           "link": "/services/enclausuramento"
         }
       ]
+    },
+    "team_section": {
+      "title": "Nossa Equipe",
+      "subtitle": "Especialistas em operações e projetos de hiperescala e missão crítica.",
+      "cards": [
+        {
+          "title": "Equipes Dedicadas",
+          "image": "/team/dedicadas.jpg", 
+          "items": [
+            "Operações de instalações críticas",
+            "Manutenções Preventivas",
+            "Correções, testes, instalações personalizadas de hardwares",
+            "Assistência para soluções de problemas com cabeamento",
+            "Suporte técnico"
+          ]
+        },
+        {
+          "title": "Equipes de Projeto",
+          "image": "/team/projetos.jpg",
+          "items": [
+            "Montagem de racks, leito aramado e fiberrunner",
+            "Cabeamento estruturado",
+            "Descomissionamento",
+            "Suporte de construção",
+            "Certificação e identificação de todo cabeamento"
+          ]
+        },
+        {
+          "title": "Equipes de Apoio",
+          "image": "/team/apoio.jpg",
+          "items": [
+            "Impressão de etiquetas para identificação de cabos",
+            "Análise e filtro de planilha para separação de cabos e ativação nos equipamentos",
+            "Limpeza e organização",
+            "Equipes para garantir a segurança e qualidade do serviço realizado"
+          ]
+        }
+      ]
+    },
+    "differentials_section": {
+      "items": [
+        {
+          "id": "scalability",
+          "title": "Escalabilidade Global",
+          "description": "A Consultimer tem capacidade comprovada para garantir operações consistentes e confiáveis ​​em todo o mundo."
+        },
+        {
+          "id": "cost",
+          "title": "Redução de Custos",
+          "description": "Nosso modelo de operação reduz custos, aumenta a qualidade e alcança um equilíbrio ideal entre pessoas, processos e tecnologia."
+        },
+        {
+          "id": "flexibility",
+          "title": "Flexibilidade e Velocidade",
+          "description": "Nosso atendimento altamente adaptável se move na velocidade em que o seu negócio precisa."
+        },
+        {
+          "id": "workforce",
+          "title": "Força de Trabalho",
+          "description": "Nossos programas de treinamento e desenvolvimento garantem equipes e operações altamente eficazes."
+        }
+      ]
+    },
+    "certifications_section": {
+      "title": "Certificações e Qualificações",
+      "description": "A Consultimer é certificada e acreditada por instituições reconhecidas mundialmente em metodologia, produtos, processos e pessoas, garantindo projetos com qualidade, segurança e eficiência.",
+      "items": [
+        { "name": "Corning", "logo": "/certifications/corning.png" },
+        { "name": "Fluke", "logo": "/certifications/fluke.png" },
+        { "name": "CommScope", "logo": "/certifications/commscope.png" },
+        { "name": "Fujikura", "logo": "/certifications/fujikura.png" }
+      ]
+    },
+    "distributors_section": {
+      "title": "Distribuidor Autorizado",
+      "items": [
+        { "name": "Ansell", "logo": "/distributors/ansell.png" },
+        { "name": "Hubbell", "logo": "/distributors/hubbell.png" },
+        { "name": "Waveshare", "logo": "/distributors/waveshare.png" },
+        { "name": "Ergotron", "logo": "/distributors/ergotron.png" },
+        { "name": "ServerLIFT", "logo": "/distributors/server-lift.png" },
+        { "name": "Allegheny", "logo": "/distributors/allegheny-shredders.jpg" }
+      ]
+    },
+    "cta_section": {
+      "title": "Pronto para escalar sua infraestrutura?",
+      "description": "Fale com nossos especialistas em Data Centers e descubra como a Consultimer pode garantir a segurança e eficiência do seu projeto na América Latina.",
+      "quote": "Desde a fundação, nosso foco é a fidelidade aos princípios éticos e o respeito mútuo.",
+      "button_primary": "Solicitar Proposta",
+      "button_secondary": "Dúvidas no WhatsApp",
+      "whatsapp_message": "Olá! Quero falar com um especialista!"
     }
   },
   "navbar": {
