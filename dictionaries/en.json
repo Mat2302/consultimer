@@ -188,6 +188,33 @@
       "whatsapp_message": "Hello! I want to speak with a specialist!"
     }
   },
+  "about": {
+    "header": {
+      "title": "About Consultimer",
+      "description": "We develop data center infrastructure solutions with agility, innovation, and transparency at every stage of our service."
+    },
+    "who_we_are_section": {
+      "title": "Who is Consultimer?",
+      "p1": "We are a technology company with a young and transformative spirit. We develop data center infrastructure solutions with agility, innovation, and transparency at every stage of our service.",
+      "p2": "We have over 20 years of experience in mission-critical and hyperscale (data center) environments that require high reliability and security. Furthermore, we are recognized for the constant development of our team's technical skills and processes."
+    },
+    "commitments_section": {
+      "title": "Consultimer's Commitment.",
+      "p1": "We exist to foster the evolution of the excellence concept wherever we are with our clients and collaborators at all times. We ensure exceptional service and contribute to large-scale sustainable development, staying updated and prepared to implement new technologies and tackle new challenges.",
+      "p2": "We deconstruct complexity, bureaucracy, and the old-fashioned way of dealing with the market. Our main focus is to be a reference in the data center segment and show the world that, beyond quality, our purpose is to help people and always promote incredible experiences for everyone.",
+      "p3": "We are faithful to our values; we prize equality, environmental preservation, respect for human dignity, and support for every positive idea for society."
+    },
+    "sustainability_section": {
+      "title": "Consultimer’s Social and Environmental Responsibility",
+      "p1": "In all our processes, we act with transparency and care for the environment. We are constantly taking measures to minimize any type of impact that Consultimer Group's activities may cause to nature.",
+      "p2": "Our social responsibility is built on the same foundations that make up our Compliance model, which is to collaborate in building a fairer, more inclusive, and supportive society.",
+      "ombudsman_button": "Access Ombudsman Channel",
+      "card1_title": "Environmental Impact",
+      "card1_description": "Continuous adoption of measures for the preservation and minimization of impacts on nature.",
+      "card2_title": "Ethics & Compliance",
+      "card2_description": "Solid foundations for a just society. Learn about and use our transparency channel."
+    }
+  },
   "navbar": {
     "home": "Home",
     "about_us": "About Us",

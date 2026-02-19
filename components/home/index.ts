@@ -6,4 +6,4 @@ export { default as TeamSection } from './TeamSection';
 export { default as DifferentialsSection } from './DifferentialSection';
 export { default as CertificationsSection } from './CertificationsSection';
 export { default as DistributorsSection } from './DistributorsSection';
-export { default as CTASection } from './CTASection';
+export { default as CTASection } from '../shared/CTASection';

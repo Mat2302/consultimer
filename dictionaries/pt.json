@@ -188,6 +188,33 @@
       "whatsapp_message": "Olá! Quero falar com um especialista!"
     }
   },
+  "about": {
+    "header": {
+      "title": "Sobre a Consultimer",
+      "description": "Desenvolvemos soluções para infraestrutura de data center com agilidade, inovação e transparência em cada etapa do nosso atendimento."
+    },
+    "who_we_are_section": {
+      "title": "Quem é a Consultimer?",
+      "p1": "Somos uma empresa de tecnologia com espírito jovem e transformador. Desenvolvemos soluções para infraestrutura de data center com agilidade, inovação e transparência em cada etapa do nosso atendimento.",
+      "p2": "Contamos com mais de 20 anos de experiência em ambientes de missão crítica e hiperescala (data center) que exigem alta confiabilidade e segurança. Além disso, somos reconhecidos em virtude do constante desenvolvimento das competências técnicas e processos da nossa equipe."
+    },
+    "commitments_section": {
+      "title": "Compromisso da Consultimer.",
+      "p1": "Existimos para proporcionar a evolução do conceito de excelência onde quer que estejamos com nossos clientes e colaboradores a qualquer tempo. Garantindo um ótimo atendimento e colaborando para o desenvolvimento em larga escala e sustentável, mantendo-se atualizados e preparados para execução de novas tecnologias e desafios.",
+      "p2": "Desconstruirmos a complexidade, burocracias e aquele jeito antigo de lidar com o mercado. Nosso maior foco é ser referência no segmento de data centers e mostrar para o mundo que além da qualidade, temos o propósito de ajudar pessoas e sempre promover a todos experiências incríveis.",
+      "p3": "Somos fiéis a nossos valores, prezamos pela igualdade, preservação do meio ambiente, respeito à dignidade das pessoas e apoio para toda ideia positiva à sociedade."
+    },
+    "sustainability_section": {
+      "title": "Responsabilidade Socioambiental da Consultimer",
+      "p1": "Em todos nossos processos agimos com transparência e cuidado com o meio ambiente. Estamos constantemente tomando medidas para minimizar qualquer tipo de impacto que as atividades da Consultimer Group possam causar à natureza.",
+      "p2": "Nossa responsabilidade social está construída nas mesmas bases que compõem nosso modelo de Compliance, ou seja, colaborar na construção de uma sociedade mais justa, inclusiva e solidária.",
+      "ombudsman_button": "Acessar Canal de Ouvidoria",
+      "card1_title": "Impacto Ambiental",
+      "card1_description": "Adoção contínua de medidas para preservação e minimização de impactos na natureza.",
+      "card2_title": "Ética & Compliance",
+      "card2_description": "Bases sólidas para uma sociedade justa. Conheça e utilize nosso canal de transparência."
+    }
+  },
   "navbar": {
     "home": "Início",
     "about_us": "Sobre",
