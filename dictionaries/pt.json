@@ -202,6 +202,7 @@
   "footer": {
     "description": "A Consultimer é especializada em serviços para data center, gerenciando toda a operação desde o projeto, construção e manutenção.",
     "rights_reserved": "Todos os direitos reservados",
-    "privacy_policy": "Política de Privacidade"
+    "privacy_policy": "Política de Privacidade",
+    "ombudsman": "Ouvidoria"
   }
 }

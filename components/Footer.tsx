@@ -8,7 +8,8 @@ interface FooterProps {
     dict: {
         description: string,
         rights_reserved: string,
-        privacy_policy: string
+        privacy_policy: string,
+        ombudsman: string
     }
 }
 
@@ -129,9 +130,13 @@ export default function Footer({ dict }: FooterProps) {
             <div className="border-t border-zinc-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
               <p> © 2012 - {new Date().getFullYear()} Consultimer. {dict.rights_reserved}
               </p>
-              <div className="flex gap-6 mt-4 md:mt-0">
+              <div className="flex gap-4 mt-4 md:mt-0">
                 <Link href="/privacy" className="hover:text-white transition">
                   {dict.privacy_policy}
+                </Link>
+                <span>|</span>
+                <Link href="/ombudsman" className="hover:text-white transition">
+                  {dict.ombudsman}
                 </Link>
               </div>
             </div>
