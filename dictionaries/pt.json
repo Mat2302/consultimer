@@ -93,6 +93,13 @@
           "title": "Enclausuramento",
           "description": "O serviço desenvolvido com o objetivo de reduzir o PUE (Power Usage Effectiveness) em Data Centers.",
           "link": "/services/enclausuramento"
+        },
+        {
+          "id": "loadbanks",
+          "image": "/services/deployment.png",
+          "title": "Banco de Carga",
+          "description": "Simulação de carga de até 200 kW para comissionamento e testes de estresse. Valide a segurança térmica e elétrica da sua infraestrutura com precisão.",
+          "link": "/services/loadbanks"
         }
       ]
     },
@@ -213,6 +220,56 @@
       "card1_description": "Adoção contínua de medidas para preservação e minimização de impactos na natureza.",
       "card2_title": "Ética & Compliance",
       "card2_description": "Bases sólidas para uma sociedade justa. Conheça e utilize nosso canal de transparência."
+    }
+  },
+  "services": {
+    "hero_section": {
+      "title": "Serviços de data center desde o projeto técnico, construção e manutenção",
+      "p1": "Contamos com mais de 20 anos de experiência em ambientes de missão crítica e hiperescala que exigem alta confiabilidade e segurança.",
+      "p2": "Nossa equipe desenvolve soluções para data center com agilidade, inovação e transparência em cada etapa do nosso atendimento.",
+      "cta_btn": "Fale com um especialista"
+    },
+    "services_grid_section": {
+      "title": "Nossas Soluções",
+      "read_more": "SAIBA MAIS"
+    },
+    "team_section": {
+      "title": "NOSSA EQUIPE",
+      "subtitle": "Especialistas em operações e projetos de hiperescala e missão crítica.",
+      "cards": [
+        {
+          "title": "Equipes Dedicadas",
+          "image": "/services/dedicadas.png",
+          "items": [
+            "Operações de instalações críticas",
+            "Manutenções Preventivas",
+            "Correções, testes, instalações personalizadas de hardwares",
+            "Assistência para soluções de problemas com cabeamento",
+            "Suporte técnico"
+          ]
+        },
+        {
+          "title": "Equipes de Projeto",
+          "image": "/services/projetos.jpg",
+          "items": [
+            "Montagem de racks, leito aramado e fiberrunner",
+            "Cabeamento estruturado",
+            "Descomissionamento",
+            "Suporte de construção",
+            "Certificação e identificação de todo cabeamento"
+          ]
+        },
+        {
+          "title": "Equipes de Apoio",
+          "image": "/services/apoio.png",
+          "items": [
+            "Impressão de etiquetas para identificação de cabos",
+            "Análise e filtro de planilha para separação de cabos e ativação nos equipamentos",
+            "Limpeza e organização",
+            "Equipes para garantir a segurança e qualidade do serviço realizado"
+          ]
+        }
+      ]
     }
   },
   "navbar": {

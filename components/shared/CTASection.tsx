@@ -24,7 +24,7 @@ export default function CTASection({ dict, lang }: CTASectionProps) {
   return (
     <section className="relative py-24 overflow-hidden">
       <div className="absolute inset-0 bg-linear-to-r from-orange-600 to-amber-500 z-0" />
-      <div className="container relative z-10 mx-auto px-6 text-center">
+      <div className="container relative z-10 mx-auto px-6 text-center" id="fale-com-especialista">
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 tracking-tight">
           {dict.title}
         </h2>

@@ -1,14 +1,13 @@
 import { getDictionary } from '../get-dictionary'
+import { CTASection, TeamSection } from '@/components/shared'
 import { 
   HeroSection,
   ClientsSection,
   AboutExperienceSection,
   ServicesCarousel,
-  TeamSection,
   DifferentialsSection,
   CertificationsSection,
-  DistributorsSection,
-  CTASection
+  DistributorsSection
 } from '@/components/home'
 
 interface PageProps {

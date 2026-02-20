@@ -93,6 +93,13 @@
           "title": "Containment",
           "description": "A service developed with the objective of reducing PUE (Power Usage Effectiveness) in Data Centers.",
           "link": "/services/enclausuramento"
+        },
+        {
+          "id": "loadbanks",
+          "image": "/services/deployment.png",
+          "title": "Load Banks",
+          "description": "Load simulation of up to 200 kW for commissioning and stress testing. Validate the thermal and electrical safety of your infrastructure with precision.",
+          "link": "/services/loadbanks"
         }
       ]
     },
@@ -213,6 +220,56 @@
       "card1_description": "Continuous adoption of measures for the preservation and minimization of impacts on nature.",
       "card2_title": "Ethics & Compliance",
       "card2_description": "Solid foundations for a just society. Learn about and use our transparency channel."
+    }
+  },
+  "services": {
+    "hero_section": {
+      "title": "Data center services from technical design and construction to maintenance",
+      "p1": "We have over 20 years of experience in mission-critical and hyperscale environments that require high reliability and security.",
+      "p2": "Our team develops data center solutions with agility, innovation, and transparency at every stage of our service.",
+      "cta_btn": "Speak with a specialist"
+    },
+    "services_grid_section": {
+      "title": "Our Solutions",
+      "read_more": "LEARN MORE"
+    },
+    "team_section": {
+      "title": "OUR TEAM",
+      "subtitle": "Specialists in hyperscale and mission-critical operations and projects.",
+      "cards": [
+        {
+          "title": "Dedicated Teams",
+          "image": "/services/dedicadas.png",
+          "items": [
+            "Critical facility operations",
+            "Preventive Maintenance",
+            "Fixes, testing, and custom hardware installations",
+            "Cabling troubleshooting assistance",
+            "Technical support"
+          ]
+        },
+        {
+          "title": "Project Teams",
+          "image": "/services/projetos.jpg",
+          "items": [
+            "Assembly of racks, wire mesh trays, and fiberrunner",
+            "Structured cabling",
+            "Decommissioning",
+            "Construction support",
+            "Certification and identification of all cabling"
+          ]
+        },
+        {
+          "title": "Support Teams",
+          "image": "/services/apoio.png",
+          "items": [
+            "Label printing for cable identification",
+            "Spreadsheet analysis and filtering for cable separation and equipment activation",
+            "Cleaning and organization",
+            "Teams to ensure the safety and quality of the performed service"
+          ]
+        }
+      ]
     }
   },
   "navbar": {

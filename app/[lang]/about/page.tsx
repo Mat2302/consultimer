@@ -1,10 +1,9 @@
 import { getDictionary } from '../../get-dictionary';
+import { PageHeader, CTASection } from '@/components/shared';
 import {
-    PageHeader,
     WhoWeAreSection,
     CommitmentSection,
-    SustainabilitySection,
-    CTASection
+    SustainabilitySection
 } from '@/components/about'
 
 interface PageProps {
