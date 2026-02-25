@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Phone } from "lucide-react";
+import { siteConfig } from "@/config/site";
 import { SiFacebook, SiGmail, SiInstagram, SiLinkedin, SiTiktok, SiX } from "react-icons/si";
 
 
@@ -19,51 +20,51 @@ export default function Footer({ dict }: FooterProps) {
             country: "Brazil",
             city: "Cosmópolis",
             flag: "/brasil_footer.png",
-            email: "contato@consultimer.com",
-            phone: "+55 19 3812-9700"
+            email: siteConfig.contact_brazil.email,
+            phone: siteConfig.contact_brazil.phone
         },
         {
             country: "USA",
             city: "Miami",
             flag: "/usa_footer.png",
-            email: "contact@consultimer.com",
-            phone: "+1 786 539-4731"
+            email: siteConfig.contact_usa.email,
+            phone: siteConfig.contact_usa.phone
         },
         {
             country: "Chile",
             city: "Santiago",
             flag: "/chile_footer.png",
-            email: "contacto@consultimer.com",
-            phone: "+56 2 2570-8458"
+            email: siteConfig.contact_chile.email,
+            phone: siteConfig.contact_chile.phone
         },
         {
             country: "México",
             city: "Querétaro",
             flag: "/mexico_footer.png",
-            email: "contacto@consultimer.com",
-            phone: "+52 442-348-6339"
+            email: siteConfig.contact_mexico.email,
+            phone: siteConfig.contact_mexico.phone
         }
     ];
     const socialLinks = [
         {
             icon: SiFacebook,
-            href: "https://www.facebook.com/consultimer/"
+            href: siteConfig.links.facebook
         },
         {
             icon: SiX,
-            href: "https://x.com/cstrdatacenter"
+            href: siteConfig.links.x
         },
         {
             icon: SiInstagram,
-            href: "https://www.instagram.com/consultimer/"
+            href: siteConfig.links.instagram
         },
         { 
             icon: SiLinkedin,
-            href: "https://www.linkedin.com/company/consultimer/"
+            href: siteConfig.links.linkedin
         },
         {
             icon: SiTiktok,
-            href: "https://www.tiktok.com/@consultimer"
+            href: siteConfig.links.tiktok
         }
     ];
 

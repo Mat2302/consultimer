@@ -41,7 +41,7 @@ export default function CertificationsSection({ dict }: CertificationsSectionPro
                 
                 /* DESKTOP */
                 md:grayscale md:opacity-60 
-                md:hover:grayscale-0 md:hover:opacity-100 md:hover:scale-110
+                md:hover:grayscale-0 md:hover:opacity-100
               "
             >
               <Image

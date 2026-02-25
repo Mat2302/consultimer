@@ -6,11 +6,9 @@ interface PageHeaderProps {
 export default function PageHeader({ title, description }: PageHeaderProps) {
   return (
     <header className="relative bg-zinc-950 py-24 lg:py-32 overflow-hidden">
-      {/* Elementos de Fundo */}
       <div className="absolute inset-0 z-0 pointer-events-none">
         <div className="absolute -top-24 -right-24 w-96 h-96 bg-orange-600/10 rounded-full blur-3xl" />
         <div className="absolute -bottom-24 -left-24 w-96 h-96 bg-orange-600/10 rounded-full blur-3xl" />
-        {/* Linha que separa o conteúdo */}
         <div className="absolute bottom-0 left-0 w-full h-px bg-linear-to-r from-transparent via-orange-500/30 to-transparent" />
       </div>
 

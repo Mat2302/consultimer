@@ -227,7 +227,7 @@
       "title": "Servicios de data center desde el diseño técnico, construcción y mantenimiento",
       "p1": "Contamos con más de 20 años de experiencia en entornos de misión crítica e hiperescala que exigen alta confiabilidad y seguridad.",
       "p2": "Nuestro equipo desarrolla soluciones para data center con agilidad, innovación y transparencia en cada etapa de nuestro servicio.",
-      "cta_btn": "Hable con un especialista"
+      "cta_button": "Hable con un especialista"
     },
     "services_grid_section": {
       "title": "Nuestras Soluciones",
@@ -270,6 +270,120 @@
           ]
         }
       ]
+    }
+  },
+  "services_details": {
+    "infrastructure": {
+      "hero": {
+        "title": "Infraestructura de Red para Data Center.",
+        "description": [
+          "El servicio de infraestructura de red para data centers entrega tranquilidad, seguridad y resultados para conectividad de misión crítica e hiperescala.",
+          "Consultimer es especialista en la instalación y certificación de todo el cableado en el data center."
+        ],
+        "cta": "HABLE CON UN ESPECIALISTA",
+        "image": "/services/infraestrutura.jpg"
+      },
+      "offerings": {
+        "title": "Servicios ofrecidos para infraestructura de red en data centers",
+        "items": [
+          {
+            "title": "Proyectos de Fit out",
+            "icon": "/services/fitout.png",
+            "checks": [
+              "Construcción de la sala desde el inicio hasta la operación;",
+              "Montaje de infraestructura (bandejas de rejilla, fiberrunner, racks);",
+              "Paso de cables trunk para la interconexión de salas e hileras de red con hileras de servidores;",
+              "Conectorización de cables de red para consola y gestión de equipos;",
+              "Certificación e identificación de todo el cableado."
+            ]
+          },
+          {
+            "title": "Corpnet",
+            "icon": "/services/corpnet.png",
+            "checks": [
+              "Montaje de racks con posicionamiento estratégico;",
+              "Instalación de equipos para la activación y configuración de la red corporativa;",
+              "Montaje de infraestructura para cableado estructurado para la comunicación entre los racks y estaciones de trabajo de la red corporativa."
+            ]
+          }
+        ]
+      },
+      "advantages": {
+        "title": "Ventajas de la Solución en Infraestructura para Data Center de Consultimer.",
+        "text": "Entregamos tranquilidad, seguridad y resultados para conectividad de misión crítica. Con más de 8 años de experiencia, instalamos y mantenemos un amplio portafolio de cables de fibra y cobre de alto rendimiento para sus necesidades de cableado estructurado. Realizamos la instalación y certificación de productos de todos los líderes del mercado en la industria del cableado.",
+        "image": "/services/infraestrutura-vantagens.jpg",
+        "checks": []
+      },
+      "cta_section": {
+        "title": "¿Listo para optimizar su red?",
+        "description": "Hable con nuestros especialistas en cableado estructurado y garantice la seguridad de la conectividad de su Data Center.",
+        "quote": "Desde nuestra fundación, nuestro enfoque es la fidelidad a los principios éticos y el respeto mutuo.",
+        "button_primary": "Solicitar Propuesta",
+        "button_secondary": "Dudas por WhatsApp",
+        "whatsapp_message": "¡Hola! ¡Quiero hablar con un especialista en cableado estructurado!"
+      }
+    },
+    "fitout": {
+      "title": "Fit-out para Data Center.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "checks": [
+        "Construcción de la sala desde el inicio hasta la operación;",
+        "Montaje de infraestructura (bandejas de rejilla, fiberrunner, racks);",
+        "Paso de cables trunk para la interconexión de salas e hileras de red con hileras de servidores;",
+        "Conectorización de cables de red para consola y gestión de equipos;",
+        "Certificación e identificación de todo el cableado."
+      ],
+      "image": "/services/fitout-background.jpg",
+      "cta": "HABLE CON UN ESPECIALISTA",
+      "whatsapp_message": "¡Hola! Me gustaría hablar con un especialista sobre el servicio de Fit-out para Data Center."
+    },
+    "energy": {
+      "hero": {
+        "title": "Eficiencia Energética para Data Center.",
+        "description": [
+          "La eficiencia energética para Data Centers está directamente vinculada a la gestión del flujo de aire para eliminar puntos de calor. Esta técnica puede ahorrar hasta un 75% del presupuesto de refrigeración. Consultimer desarrolla soluciones para cubrir los espacios donde ocurre la fuga de aire, con piezas personalizadas como: Blanking panels, HACs (Contención de Pasillo Caliente), CACs (Contención de Pasillo Frío) y vías de conectividad."
+        ],
+        "cta": "HABLE CON UN ESPECIALISTA",
+        "image": "/services/datacenter.jpg"
+      },
+      "offerings": {
+        "title": "La optimización de la gestión del aire dentro de un data center es el primer paso para la eficiencia energética",
+        "items": [
+          {
+            "title": "Blanking Panels",
+            "icon": "/services/blaking-panels.jpg",
+            "paragraphs": [
+              "Los blanking panels o paneles de obturación, son piezas que impiden la reutilización del aire que sale de las máquinas. Este dispositivo evita que los equipos se sobrecalienten.",
+              "El equipo especializado de Consultimer puede instalar un blanking panel en hasta 5 segundos; de esta forma, las empresas pueden obtener un data center optimizado en cuestión de horas."
+            ]
+          },
+          {
+            "title": "HACs (Hot Aisle Containment) y CACs (Cold Aisle Containment)",
+            "icon": "/services/hacs.png",
+            "paragraphs": [
+              "La contención de los pasillos calientes y fríos actúa en el enfriamiento de los equipos, permitiendo la entrada de aire frío sin mezclarse con el aire caliente."
+            ]
+          }
+        ]
+      },
+      "cta_section": {
+        "title": "¿Listo para maximizar la eficiencia de su Data Center?",
+        "description": "Hable con nuestros especialistas en gestión de aire y climatización para reducir costos operativos y garantizar el enfriamiento ideal de sus equipos.",
+        "quote": "Desde nuestra fundación, nuestro enfoque es la fidelidad a los principios éticos y el respeto mutuo.",
+        "button_primary": "Solicitar Propuesta",
+        "button_secondary": "Dudas por WhatsApp",
+        "whatsapp_message": "¡Hola! Estaba navegando por el sitio web y me gustaría hablar con un especialista sobre soluciones de Eficiencia Energética y contención para Data Center."
+      },
+      "advantages": {
+        "title": "Ventajas de las Soluciones en Eficiencia Energética de Consultimer.",
+        "text": "Nuestro enfoque se centra en resultados inmediatos para la reducción del PUE (Power Usage Effectiveness) de su Data Center, garantizando el retorno de la inversión.",
+        "image": "/services/infraestrutura-vantagens.jpg",
+        "checks": [
+          "Equipo técnico de especialistas con más de 20 años de experiencia en el mercado;",
+          "Instalación ágil en entornos de misión crítica sin necesidad de tiempo de inactividad;",
+          "Materiales y paneles con certificación de calidad internacional."
+        ]
+      }
     }
   },
   "navbar": {

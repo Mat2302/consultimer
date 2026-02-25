@@ -7,7 +7,7 @@ interface ServicesHeroSectionProps {
     title: string;
     p1: string;
     p2: string;
-    cta_btn: string;
+    cta_button: string;
   };
 }
 
@@ -29,7 +29,7 @@ export default function ServicesHeroSection({ dict }: ServicesHeroSectionProps) 
               href="#fale-com-especialista"
               className="inline-flex items-center gap-2 bg-orange-600 hover:bg-orange-700 text-white px-8 py-4 rounded-full font-bold transition-all duration-300 group"
             >
-              <span>{dict.cta_btn}</span>
+              <span>{dict.cta_button}</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
           </div>

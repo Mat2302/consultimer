@@ -65,7 +65,7 @@ export default function ServicesCarousel({ dict }: any) {
         <div className="relative group">
           <button 
             onClick={() => scroll("left")}
-            className="absolute -left-20 top-1/2 -translate-y-1/2 z-20 p-2 text-consultimer-orange hover:scale-110 transition-all duration-300 hidden xl:block"
+            className="absolute -left-20 top-1/2 -translate-y-1/2 z-20 p-2 text-consultimer-orange transition-all duration-300 hidden xl:block"
           >
             <ChevronLeft size={60} strokeWidth={1.5} />
           </button>
@@ -115,7 +115,7 @@ export default function ServicesCarousel({ dict }: any) {
 
           <button 
             onClick={() => scroll("right")}
-            className="absolute -right-20 top-1/2 -translate-y-1/2 z-20 p-2 text-consultimer-orange hover:scale-110 transition-all duration-300 hidden xl:block"
+            className="absolute -right-20 top-1/2 -translate-y-1/2 z-20 p-2 text-consultimer-orange transition-all duration-300 hidden xl:block"
           >
             <ChevronRight size={60} strokeWidth={1.5} />
           </button>

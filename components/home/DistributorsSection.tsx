@@ -36,8 +36,7 @@ export default function DistributorsSection({ dict }: DistributorsSectionProps) 
                 
                 /* DESKTOP */
                 md:grayscale md:opacity-50 
-                md:hover:grayscale-0 md:hover:opacity-100 md:hover:scale-110
-              "
+                md:hover:grayscale-0 md:hover:opacity-100"
             >
               <Image
                 src={item.logo}

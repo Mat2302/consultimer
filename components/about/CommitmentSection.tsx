@@ -19,7 +19,7 @@ export default function CommitmentSection({ dict }: CommitmentSectionProps) {
               src="/about/commitment.jpg" 
               alt="Engenheiro Consultimer em campo"
               fill
-              className="object-cover transition-transform duration-700 group-hover:scale-105"
+              className="object-cover transition-transform duration-700"
               sizes="(max-width: 1024px) 100vw, 50vw"
             />
              <div className="absolute inset-0 bg-orange-600/10 mix-blend-multiply" />

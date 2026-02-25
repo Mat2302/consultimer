@@ -17,9 +17,10 @@ interface ExperienceSectionProps {
       cosmopolis: string;
     };
   };
+  lang: string;
 }
 
-export default function ExperienceSection({ dict }: ExperienceSectionProps) {
+export default function ExperienceSection({ dict, lang }: ExperienceSectionProps) {
   const locations = [
     { id: "usa", name: dict.locations.miami, top: "20%", left: "43%" },
     { id: "mex", name: dict.locations.queretaro, top: "25%", left: "28%" },
@@ -43,7 +44,7 @@ export default function ExperienceSection({ dict }: ExperienceSectionProps) {
 
             <div className="pt-4">
               <Link 
-                href="/about" 
+                href={`/${lang}/about`}
                 className="inline-flex items-center gap-2 text-consultimer-orange font-bold hover:text-consultimer-orange-hover transition-colors uppercase text-sm tracking-wide"
               >
                 {dict.cta_button}
@@ -82,7 +83,6 @@ export default function ExperienceSection({ dict }: ExperienceSectionProps) {
               ))}
             </div>
           </div>
-
         </div>
       </div>
     </section>

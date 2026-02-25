@@ -1,5 +1,6 @@
 "use client";
 
+import { siteConfig } from "@/config/site";
 import { ArrowRight, Mail, MessageCircle, Calendar } from "lucide-react";
 import Link from "next/link";
 
@@ -16,10 +17,8 @@ interface CTASectionProps {
 }
 
 export default function CTASection({ dict, lang }: CTASectionProps) {
-  const showWhatsApp = lang === 'pt' || lang === 'es';
-  const whatsappNumber = "551938129712";
   const encodedMessage = encodeURIComponent(dict.whatsapp_message);
-  const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+  const whatsappUrl = `https://wa.me/${siteConfig.whatsapp}?text=${encodedMessage}`;
 
   return (
     <section className="relative py-24 overflow-hidden">
@@ -43,19 +42,15 @@ export default function CTASection({ dict, lang }: CTASectionProps) {
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </Link>
 
-          {showWhatsApp ? (
-            <a 
-              href={whatsappUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full sm:w-auto group border-2 border-white/40 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white/10 hover:border-white transition-all duration-300 flex items-center justify-center gap-2"
-            >
+          <a 
+            href={whatsappUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-full sm:w-auto group border-2 border-white/40 text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-white/10 hover:border-white transition-all duration-300 flex items-center justify-center gap-2"
+          >
               <MessageCircle className="w-5 h-5 fill-current" />
               {dict.button_secondary}
             </a>
-          ) : (
-             null 
-          )}
         </div>
 
          <div className="w-16 h-1 bg-white/20 mx-auto mb-10 rounded-full" />

@@ -227,7 +227,7 @@
       "title": "Data center services from technical design and construction to maintenance",
       "p1": "We have over 20 years of experience in mission-critical and hyperscale environments that require high reliability and security.",
       "p2": "Our team develops data center solutions with agility, innovation, and transparency at every stage of our service.",
-      "cta_btn": "Speak with a specialist"
+      "cta_button": "Speak with a specialist"
     },
     "services_grid_section": {
       "title": "Our Solutions",
@@ -270,6 +270,120 @@
           ]
         }
       ]
+    }
+  },
+  "services_details": {
+    "infrastructure": {
+      "hero": {
+        "title": "Network Infrastructure for Data Centers.",
+        "description": [
+          "Our network infrastructure service for data centers delivers peace of mind, security, and results for mission-critical and hyperscale connectivity.",
+          "Consultimer is a specialist in the installation and certification of all cabling within the data center."
+        ],
+        "cta": "SPEAK WITH A SPECIALIST",
+        "image": "/services/infraestrutura.jpg"
+      },
+      "offerings": {
+        "title": "Services offered for network infrastructure in data centers",
+        "items": [
+          {
+            "title": "Fit-out Projects",
+            "icon": "/services/fitout.png",
+            "checks": [
+              "Room construction from scratch to operation;",
+              "Infrastructure assembly (wire mesh trays, fiberrunner, racks);",
+              "Trunk cable routing for interconnecting rooms and network rows with server rows;",
+              "Termination of network cables for console and equipment management;",
+              "Certification and identification of all cabling."
+            ]
+          },
+          {
+            "title": "Corpnet",
+            "icon": "/services/corpnet.png",
+            "checks": [
+              "Rack assembly with strategic positioning;",
+              "Installation of equipment for corporate network activation and configuration;",
+              "Infrastructure assembly for structured cabling to enable communication between racks and corporate network workstations."
+            ]
+          }
+        ]
+      },
+      "advantages": {
+        "title": "Advantages of Consultimer's Data Center Infrastructure Solutions.",
+        "text": "We deliver peace of mind, security, and results for mission-critical connectivity. With over 8 years of experience, we install and maintain an extensive portfolio of high-performance fiber and copper cables for your structured cabling needs. We handle the installation and certification of products from all market leaders in the cabling industry.",
+        "image": "/services/infraestrutura-vantagens.jpg",
+        "checks": []
+      },
+      "cta_section": {
+        "title": "Ready to optimize your network?",
+        "description": "Speak with our structured cabling specialists and ensure the security of your Data Center's connectivity.",
+        "quote": "Since our founding, our focus has been on loyalty to ethical principles and mutual respect.",
+        "button_primary": "Request a Proposal",
+        "button_secondary": "Questions on WhatsApp",
+        "whatsapp_message": "Hello! I want to speak with a structured cabling specialist!"
+      }
+    },
+    "fitout": {
+      "title": "Data Center Fit-out.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "checks": [
+        "Room construction from scratch to operation;",
+        "Infrastructure assembly (wire mesh trays, fiberrunner, racks);",
+        "Trunk cable routing for interconnecting rooms and network rows with server rows;",
+        "Termination of network cables for console and equipment management;",
+        "Certification and identification of all cabling."
+      ],
+      "image": "/services/fitout-background.jpg",
+      "cta": "SPEAK WITH A SPECIALIST",
+      "whatsapp_message": "Hello! I would like to speak with a specialist about the Data Center Fit-out service."
+    },
+    "energy": {
+      "hero": {
+        "title": "Energy Efficiency for Data Centers.",
+        "description": [
+          "Energy efficiency for Data Centers is directly linked to airflow management to eliminate hotspots. This technique can save up to 75% of the cooling budget. Consultimer develops solutions to fill gaps where airflow leakage occurs, using customized parts such as: Blanking panels, HACs (Hot Aisle Containment), CACs (Cold Aisle Containment), and connectivity pathways."
+        ],
+        "cta": "SPEAK WITH A SPECIALIST",
+        "image": "/services/datacenter.jpg"
+      },
+      "offerings": {
+        "title": "Optimizing airflow management within a data center is the first step toward energy efficiency",
+        "items": [
+          {
+            "title": "Blanking Panels",
+            "icon": "/services/blaking-panels.jpg",
+            "paragraphs": [
+              "Blanking panels are components that prevent the reuse of exhaust air from the machines. This device prevents equipment from overheating.",
+              "Consultimer's specialized team can install a blanking panel in up to 5 seconds; this way, companies can achieve an optimized data center in a matter of hours."
+            ]
+          },
+          {
+            "title": "HACs (Hot Aisle Containment) and CACs (Cold Aisle Containment)",
+            "icon": "/services/hacs.png",
+            "paragraphs": [
+              "Hot and cold aisle containment systems work to cool equipment by allowing cold air to enter without mixing with hot exhaust air."
+            ]
+          }
+        ]
+      },
+      "cta_section": {
+        "title": "Ready to maximize your Data Center's efficiency?",
+        "description": "Speak with our airflow management and cooling specialists to reduce operational costs and ensure optimal cooling for your equipment.",
+        "quote": "Since our founding, our focus has been on loyalty to ethical principles and mutual respect.",
+        "button_primary": "Request a Proposal",
+        "button_secondary": "Questions on WhatsApp",
+        "whatsapp_message": "Hello! I was browsing the website and would like to speak with a specialist about Energy Efficiency and containment solutions for Data Centers."
+      },
+      "advantages": {
+        "title": "Advantages of Consultimer's Energy Efficiency Solutions.",
+        "text": "Our approach focuses on immediate results to reduce your Data Center's PUE (Power Usage Effectiveness), ensuring a return on investment.",
+        "image": "/services/infraestrutura-vantagens.jpg",
+        "checks": [
+          "Technical team of specialists with over 20 years of market experience;",
+          "Agile installation in mission-critical environments without the need for downtime;",
+          "Materials and panels with international quality certification."
+        ]
+      }
     }
   },
   "navbar": {

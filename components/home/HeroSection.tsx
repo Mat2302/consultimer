@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Image from 'next/image';
 
 interface HeroSectionProps {
@@ -5,10 +6,11 @@ interface HeroSectionProps {
         title: string;
         description: string;
         button: string;
-    }
+    };
+    lang: string;
 }
 
-export default function HeroSection({ dict }: HeroSectionProps) {
+export default function HeroSection({ dict, lang }: HeroSectionProps) {
   return (
     <section className="text-consultimer-white-label relative w-full h-160 items-center">
       <div className="absoule isnet-0 -z-10 py-20">
@@ -26,9 +28,12 @@ export default function HeroSection({ dict }: HeroSectionProps) {
             {dict.description}
           </p>
           
-          <button className="bg-consultimer-orange hover:bg-consultimer-orange-hover text-white font-bold py-3 px-8 rounded transition duration-300">
+          <Link 
+            href={`/${lang}/services`}
+            className="inline-block bg-consultimer-orange hover:bg-consultimer-orange-hover text-white font-bold py-3 px-8 rounded transition duration-300 text-center"
+          >
             {dict.button}
-          </button>
+          </Link>
         </div>
       </div>
     </section>

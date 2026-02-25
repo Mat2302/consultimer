@@ -20,9 +20,9 @@ export default async function Home({ params }: PageProps) {
 
   return (
     <main className="min-h-screen bg-white">
-      <HeroSection dict={dict.home.hero} />
+      <HeroSection dict={dict.home.hero} lang={lang} />
       <ClientsSection dict={dict.home.clients_section} />
-      <AboutExperienceSection dict={dict.home.about_experience_section} />
+      <AboutExperienceSection dict={dict.home.about_experience_section} lang={lang} />
       <ServicesCarousel dict={dict.home.services_section} />
       <TeamSection dict={dict.home.team_section} />
       <DifferentialsSection dict={dict.home.differentials_section} />

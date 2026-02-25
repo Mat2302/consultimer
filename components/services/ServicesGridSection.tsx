@@ -36,7 +36,7 @@ export default function ServicesGridSection({ services, dict, lang }: ServicesGr
               key={service.id} 
               className="bg-white p-8 rounded-2xl shadow-sm border border-zinc-100 hover:shadow-xl transition-all duration-300 group flex flex-col h-full"
             >
-              <div className="relative w-20 h-20 mb-8 group-hover:scale-110 transition-transform duration-300">
+              <div className="relative w-20 h-20 mb-8 transition-transform duration-300">
                 <Image
                   src={service.image} 
                   alt={`Ilustração do serviço: ${service.title}`}
