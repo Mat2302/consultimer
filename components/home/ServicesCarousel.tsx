@@ -81,7 +81,7 @@ export default function ServicesCarousel({ dict }: any) {
             {extendedItems.map((service: any, index: number) => (
               <div 
                 key={index}
-                className="min-w-[85vw] sm:min-w-[45vw] lg:min-w-[320px] snap-center bg-white rounded-2xl p-8 border border-gray-100 shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col justify-between h-120"
+                className="min-w-[85vw] sm:min-w-[45vw] lg:min-w-[320px] snap-center bg-white rounded-2xl p-8 border border-gray-100 shadow-lg hover:shadow-2xl transition-all duration-300 flex flex-col justify-between h-120"
               >
                 <div>
                   <div className="relative w-18 h-18 mb-6">

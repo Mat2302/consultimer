@@ -85,14 +85,14 @@
           "image": "/services/comissionamento.png",
           "title": "Comisionamiento",
           "description": "Garantizamos que cada componente o equipo interconectado a la infraestructura de un data center funcione de manera adecuada.",
-          "link": "/services/comissionamento"
+          "link": "/services/commissioning"
         },
         {
-          "id": "enclausuramento",
+          "id": "containment",
           "image": "/services/enclausuramento.jpg",
           "title": "Confinamiento",
           "description": "Servicio desarrollado con el objetivo de reducir el PUE (Power Usage Effectiveness) en Data Centers.",
-          "link": "/services/enclausuramento"
+          "link": "/services/containment"
         },
         {
           "id": "loadbanks",
@@ -383,6 +383,314 @@
           "Instalación ágil en entornos de misión crítica sin necesidad de tiempo de inactividad;",
           "Materiales y paneles con certificación de calidad internacional."
         ]
+      }
+    },
+    "office": {
+      "title": "Office Installation para Data Center.",
+      "description": "Realizamos, completamos e instalamos todo tipo de trabajos de oficina. Desde nuevas instalaciones hasta reformas eléctricas, iluminación, albañilería, cambios de diseño (layout) y proyectos de decoración.",
+      "checks": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      ],
+      "image": "/services/office-installations.jpg",
+      "cta": "HABLE CON UN ESPECIALISTA",
+      "whatsapp_message": "¡Hola! Me gustaría hablar con un especialista sobre Office Installation para Data Center."
+    },
+    "deployment": {
+      "title": "Deployment para Data Center.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "checks": [
+        "Análisis y filtrado de hojas de cálculo para separación de cables y activación en equipos.",
+        "Instalación de dispositivos.",
+        "Impresión de etiquetas para identificación.",
+        "Tendido de cables entre las posiciones necesarias.",
+        "Activación y organización."
+      ],
+      "image": "/services/deployment-service.jpg",
+      "cta": "HABLE CON UN ESPECIALISTA",
+      "whatsapp_message": "¡Hola! Me gustaría hablar con un especialista sobre el servicio de Deployment para Data Center."
+    },
+    "corpnet": {
+      "title": "Corpnet para Data Center.",
+      "description": "Corpnet para data center es un servicio que analiza y recomienda la configuración y arquitectura de red según la necesidad de cada cliente. De acuerdo con el análisis, se recomiendan productos y proyectos que generarán ventajas tecnológicas para toda la empresa.",
+      "checks": [
+        "Mapeo del sitio (tamaño de la oficina y cantidad de Access Points).",
+        "Control de señal con switches gestionables.",
+        "Montaje de racks con posicionamiento estratégico.",
+        "Instalación de equipos.",
+        "Montaje de infraestructura para cableado estructurado para la comunicación entre los racks y estaciones de trabajo de la red corporativa.",
+        "Certificación de la parte física.",
+        "Configuración y gestión de red (control de velocidad de los puertos).",
+        "Protección de datos (Firewall)."
+      ],
+      "image": "/services/corpnet-service.jpg",
+      "cta": "HABLE CON UN ESPECIALISTA",
+      "whatsapp_message": "¡Hola! Me gustaría hablar con un especialista sobre el servicio de Corpnet para Data Center."
+    },
+    "technical_moves": {
+      "title": "Technical Moves para Data Center.",
+      "description": "Soluciones completas en Technical Moves para la remoción y reubicación de tecnología. Nuestros ingenieros pueden trabajar en una variedad de plataformas de hardware, incluyendo servidores, almacenamiento y equipos de red. La combinación de estas actividades hace que la reubicación sea extremadamente eficiente, ya que Consultimer puede embalar y reubicar el equipo a la perfección en cualquier lugar del territorio nacional.",
+      "checks": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      ],
+      "image": "/services/technical-service.jpg",
+      "cta": "HABLE CON UN ESPECIALISTA",
+      "whatsapp_message": "¡Hola! Me gustaría hablar con un especialista sobre el servicio de Technical Moves para Data Center."
+    },
+    "smart_hands": {
+      "hero": {
+        "title": "Smart Hands para Data Center.",
+        "description": [
+          "Smart Hands para Data Center es básicamente un programa de soporte en el que los técnicos están disponibles en el sitio y pueden responder rápidamente a los problemas que puedan surgir dentro del Data Center.",
+          "El servicio de Smart Hands es una excelente opción para que la empresa ahorre tiempo y dinero; proporciona personal calificado para completar las instalaciones necesarias según cada especificación del proyecto.",
+          "El servicio de Smart Hands de Consultimer ofrece gestión local, corrección, pruebas, instalaciones personalizadas y asistencia para la resolución de problemas de hardware y cableado. Consultimer ofrece la tranquilidad y seguridad de saber que la infraestructura está en buenas manos."
+        ],
+        "cta": "HABLE CON UN ESPECIALISTA",
+        "image": "/services/smart-hands-hero.jpg"
+      },
+      "offerings": {
+        "title": "¿Por qué Smart Hands es la elección más inteligente?",
+        "items": [
+          {
+            "title": "Respuesta Rápida y Local",
+            "icon": "/services/smarthands.png",
+            "paragraphs": [
+              "Smart Hands es un sistema de soporte donde nuestros técnicos están posicionados en el sitio para responder rápidamente a cualquier tipo de problema que pueda ocurrir en su Data Center."
+            ]
+          },
+          {
+            "title": "Conocimiento Multidisciplinario",
+            "icon": "/services/fitout.png",
+            "paragraphs": [
+              "Aunque contratar a un solo técnico certificado parezca viable, Smart Hands es mucho más eficiente. Nuestro equipo multidisciplinario se encarga de prácticamente todas las tareas relacionadas con el equipo, superando las limitaciones de un técnico tradicional."
+            ]
+          }
+        ]
+      },
+      "advantages": {
+        "title": "Razones para contratar a Consultimer.",
+        "text": "Nuestros profesionales cuentan con certificaciones en las principales tecnologías del mercado, garantizando una atención de excelencia y a la medida de su infraestructura.",
+        "image": "/services/infraestrutura-vantagens.jpg",
+        "checks": [
+          "Ahorro de recursos y optimización del presupuesto;",
+          "Personal con alto nivel de conocimiento técnico;",
+          "Servicio personalizado para cada tipo y tamaño de data center;",
+          "Actuación dentro de las normas internacionales de cumplimiento y exigencias de la comunidad."
+        ]
+      },
+      "cta_section": {
+        "title": "¿Necesita soporte inmediato en su Data Center?",
+        "description": "Hable con nuestros especialistas y descubra cómo el servicio de Smart Hands puede aportar tranquilidad y seguridad a su operación.",
+        "quote": "Desde nuestra fundación, nuestro enfoque es la fidelidad a los principios éticos y el respeto mutuo.",
+        "button_primary": "Solicitar Propuesta",
+        "button_secondary": "Dudas por WhatsApp",
+        "whatsapp_message": "¡Hola! Me gustaría saber más sobre el servicio de Smart Hands para mi Data Center."
+      }
+    },
+    "commissioning": {
+      "hero": {
+        "title": "Comisionamiento para Data Center.",
+        "description": [
+          "El comisionamiento para data center es un proceso de pruebas aisladas o en conjunto que garantiza que toda la infraestructura funcione siguiendo los datos del proyecto e identificando posibles fallas que podrían poner en riesgo el entorno de misión crítica tras su inicio de operación.",
+          "Este tipo de servicio garantiza que cada componente o equipo interconectado a la infraestructura de un datacenter funcione de manera adecuada según los datos del proyecto, entregando confiabilidad y resiliencia a la operación cotidiana."
+        ],
+        "cta": "HABLE CON UN ESPECIALISTA",
+        "image": "/services/projetos.jpg"
+      },
+      "types_section": {
+        "title": "Tipos de comisionamiento para data center.",
+        "description": "Existen diversos tipos de comisionamiento para data centers que, cuando se realizan correctamente, mejoran el desempeño del sistema reduciendo costos y desperdicios de energía.",
+        "items": [
+          {
+            "title": "Comisionamiento de los equipos del data center",
+            "content": "En este tipo de comisionamiento se realizan pruebas para garantizar que los equipos instalados estén de acuerdo con las especificaciones del fabricante y entreguen la capacidad de funcionamiento adecuada para el data center."
+          },
+          {
+            "title": "Comisionamiento del sistema eléctrico",
+            "content": "El comisionamiento del sistema eléctrico se utiliza para probar la redundancia de UPS y generadores. En este proceso, la energía de la red local se desconecta intencionalmente para probar la capacidad de los generadores para mantener todo el funcionamiento del data center.\n\nAdemás, también se realizan diagnósticos de infraestructura para certificar que todos los equipos y puestas a tierra estén operando según lo esperado."
+          },
+          {
+            "title": "Comisionamiento del sistema de climatización",
+            "content": "Este tipo de comisionamiento se utiliza para probar la eficacia de todo el sistema de climatización del data center. En esta fase, todo el conjunto de equipos de aire acondicionado se apaga y, automáticamente, el segundo sistema de climatización (backup) se activa con el propósito de atender la demanda del entorno sin afectar el desempeño del data center."
+          },
+          {
+            "title": "Comisionamiento de alarmas y sensores",
+            "content": "En este tipo de comisionamiento se realizan pruebas para validar todas las alarmas y avisos del sistema interno. Cuando se activa algún sensor (puerta abierta, presencia de humedad o humo, por ejemplo), el sistema de monitoreo debe emitir señales de alerta que evidencien alguna situación de amenaza al data center."
+          },
+          {
+            "title": "Comisionamiento del sistema de combate de incendios",
+            "content": "En este tipo de comisionamiento se prueban todos los equipos que forman parte del sistema de combate de incendios. Si hay alguna evidencia de riesgo, el equipo de la brigada será alertado a través de la central de control."
+          }
+        ]
+      },
+      "process_section": {
+        "title": "Proceso de comisionamiento",
+        "description": "Después de que nuestro equipo especializado reciba los Requisitos del Proyecto del Propietario (OPR), iniciaremos las cinco etapas principales del proceso de comisionamiento.",
+        "steps": [
+          {
+            "title": "Prueba de productos críticos en fábrica",
+            "icon": "/services/comissioning/produtos-criticos.jpg",
+            "text": "Esta prueba se realiza dentro de la fábrica del producto cuando el equipo de misión crítica se adquiere de un proveedor. El solicitante tendrá una copia de la OPR en las especificaciones de compra, lo que permitirá al fabricante seguir y entender la expectativa antes de la entrega del producto.",
+            "checks": []
+          },
+          {
+            "title": "Inspección de aceptación del equipo",
+            "icon": "/services/comissioning/aceitacao-equipamento.png",
+            "text": "Cuando el equipo de misión crítica llega al data center, debe verificarse antes de ser aceptado. El equipo potencialmente puede llegar y no coincidir con las especificaciones de la OPR, por lo que es vital una inspección minuciosa.",
+            "checks": []
+          },
+          {
+            "title": "Pruebas Prefuncionales",
+            "icon": "/services/comissioning/pre-funcionais.png",
+            "text": "Se completan pruebas y más inspecciones durante la fase de instalación, verificando si todo el equipo o sistema cumple con el estándar y los requisitos de la OPR.\n\nEl equipo/sistema se pone en marcha para asegurar que funcione correctamente y que no haya problemas. Si hay problemas como fugas en conductos o fallas en manómetros, deben resolverse y ajustarse al estándar, realizando nuevas pruebas hasta que no se detecte ninguna falla.",
+            "checks": []
+          },
+          {
+            "title": "Prueba de Desempeño Funcional",
+            "icon": "/services/comissioning/desempenho-funcional.png",
+            "text": "El equipo/sistema se somete a diversos ciclos completos usando todas las configuraciones posibles. De esta forma, se examinan las funcionalidades y el desempeño de todos los equipos.\n\nEs importante examinar el lazo de control de cada sistema para asegurar que la secuencia de control cumpla su propósito. En este punto, el equipo se ajusta según sea necesario y se sintoniza con la OPR.",
+            "checks": []
+          },
+          {
+            "title": "Pruebas de Sistemas Integrados",
+            "icon": "/services/comissioning/sistemas-integrados.jpg",
+            "text": "La prueba de sistema integrado se completa como una prueba final de confiabilidad. Para realizarla, el equipo/sistema estará funcionando y la alimentación eléctrica principal se desconecta repentinamente para simular un corte de energía.\n\nInmediatamente, el sistema de respaldo del data center debe asumir el control sin problemas. Tras completar la prueba con éxito, el data center podrá comenzar a atender a los clientes con sus demandas de misión crítica.",
+            "checks": []
+          },
+          {
+            "title": "Comisionamiento Finalizado",
+            "icon": "/services/comissioning/finalizado.png",
+            "text": "Después de estas pruebas en el data center, todos los equipos o sistemas tendrán:",
+            "checks": [
+              "Alta durabilidad;",
+              "Mantenimientos optimizados;",
+              "Disminución de reparaciones;",
+              "Recuperación más rápida del ROI;",
+              "Menos tiempos de inactividad (downtime);",
+              "Mayor tasa de disponibilidad;",
+              "Alta tasa de confiabilidad."
+            ]
+          }
+        ]
+      },
+      "documentation_section": {
+        "title": "Documentación para comisionamiento de data center.",
+        "text": "Durante el proceso de comisionamiento, Consultimer no solo garantiza que todos los equipos funcionen adecuadamente, sino que también desarrolla manuales y documentos de operación del sistema.\n\nEstos documentos ayudarán a su equipo a administrar el data center, además de reducir costos por eventuales problemas.",
+        "image": "/services/comissioning/documentacao.jpg",
+        "checks": []
+      },
+      "cta_section": {
+        "title": "Garantice la confiabilidad de su Data Center",
+        "description": "Evite sorpresas y fallas en el inicio de su operación. Hable con nuestros especialistas en comisionamiento.",
+        "quote": "Desde nuestra fundación, nuestro enfoque es la fidelidad a los principios éticos y el respeto mutuo.",
+        "button_primary": "Solicitar Propuesta",
+        "button_secondary": "Hablar por WhatsApp",
+        "whatsapp_message": "¡Hola! Me gustaría hablar sobre Comisionamiento de Data Center."
+      }
+    },
+    "containment": {
+      "hero": {
+        "title": "Servicio de Enclaustramiento de Data Center",
+        "description": [
+          "El servicio de enclaustramiento para data center de Consultimer fue desarrollado con el objetivo de reducir el PUE (Power Usage Effectiveness) en Data Centers.",
+          "Nuestro servicio está totalmente enfocado en permitir el control de temperatura, disminuir el consumo de energía y aumentar la eficiencia de una instalación nueva o existente."
+        ],
+        "cta": "HABLE CON UN ESPECIALISTA",
+        "image": "/services/containment/containment.jpg"
+      },
+      "offerings": {
+        "title": "Tipos de enclaustramientos ofrecidos",
+        "items": [
+          {
+            "title": "Enclaustramiento de pasillo frío (CAC)",
+            "icon": "/services/enclausuramento.jpg",
+            "paragraphs": [
+              "El sistema CAC facilita el suministro de aire frío a los equipos con entradas de aire a una temperatura uniforme, promoviendo la separación física del aire frío suministrado del aire caliente de escape a través del confinamiento del pasillo frío."
+            ]
+          },
+          {
+            "title": "Enclaustramiento de pasillo caliente (HAC)",
+            "icon": "/services/containment/HAC-icon.jpg",
+            "paragraphs": [
+              "El objetivo del HAC es capturar el aire caliente de escape y eliminarlo o devolverlo a las unidades de refrigeración. El resto del ambiente se convierte en una sala refrigerada, brindando comodidad a los operadores del Data Center."
+            ]
+          },
+          {
+            "title": "Conducto de escape vertical de gabinetes (VED)",
+            "icon": "/services/containment/VED-icon.jpg",
+            "paragraphs": [
+              "El principal objetivo del VED es contener el aire de escape de los gabinetes y evitar la mezcla de aire caliente y frío dentro de los entornos de producción. La captura del aire, en este sistema, se realiza a través de la recolección por sistemas similares a una 'chimenea'."
+            ]
+          }
+        ]
+      },
+      "problems_section": {
+        "title": "Problemas térmicos comunes en data centers",
+        "description": "Si su Data Center no posee un sistema de contención adecuado, su operación está perdiendo dinero y corriendo riesgos diarios con:",
+        "items": [
+          "Recirculación de aire caliente proveniente del escape de los racks que retorna al interior del equipo;",
+          "Fugas por mala sellado de puntos específicos, como orificios en el piso técnico que permiten el paso de aire frío/caliente a otros pasillos;",
+          "Capacidad insuficiente o excesiva de aire para la refrigeración del ambiente;",
+          "Mezcla de aire frío y caliente, generando una pérdida de eficiencia energética;",
+          "Obstrucción del paso de aire, aumentando la resistencia térmica en el interior del rack;",
+          "Ajuste incorrecto de los parámetros de refrigeración del sistema CRAC o CRAH."
+        ]
+      },
+      "benefits_section": {
+        "title": "Beneficios del enclaustramiento para data center",
+        "description": "Nuestras soluciones de HAC (Hot Aisle Containment) y CAC (Cold Aisle Containment) brindan resultados inmediatos para su infraestructura.",
+        "cards": [
+          {
+            "title": "Optimización del sistema de refrigeración",
+            "icon": "/services/containment/cooling-icon.jpg",
+            "checks": [
+              "Aumento de eficiencia de hasta un 40%;",
+              "Adaptación a la carga dinámica y continua;",
+              "Potencia de ventilación reducida por kW de refrigeración."
+            ]
+          },
+          {
+            "title": "Eliminación de la mezcla de aire",
+            "icon": "/services/containment/wind-icon.jpg",
+            "checks": [
+              "Temperatura uniforme y predecible para todos los equipos de TI;",
+              "Integra la entrega de flujo de aire de la unidad de refrigeración con las necesidades de los equipos de TI."
+            ]
+          },
+          {
+            "title": "Aumento de la capacidad de refrigeración",
+            "icon": "/services/containment/capacity-icon.jpg",
+            "checks": [
+              "Posibilidad de un 25% de aumento en la capacidad de refrigeración;",
+              "Aumento de la capacidad del sistema de refrigeración de precisión ya existente."
+            ]
+          },
+          {
+            "title": "Retorno Rápido de Inversión (ROI)",
+            "icon": "/services/containment/roi-icon.jpg",
+            "checks": [
+              "Retorno de la inversión en hasta 2 años;",
+              "Baja inversión inicial."
+            ]
+          }
+        ]
+      },
+      "advantages": {
+        "title": "Ventajas del servicio de enclaustramiento de data center de Consultimer",
+        "text": "Entendemos que cada cliente necesita un servicio personalizado cuando se trata de la contención de pasillos de data center. Cada red tiene especificaciones y consideraciones exclusivas.\n\nPor este motivo, todas las soluciones de enclaustramiento de Consultimer son escalables, flexibles y preparadas para el futuro. Nuestro equipo técnico creará un sistema de contención de pasillos personalizado de acuerdo con sus especificaciones para garantizar que obtenga el mejor resultado posible.",
+        "image": "/services/projetos.jpg",
+        "checks": []
+      },
+      "cta_section": {
+        "title": "Deje de desperdiciar energía hoy mismo.",
+        "description": "Nuestros ingenieros están listos para diseñar la solución de enclaustramiento perfecta para el layout de su Data Center.",
+        "quote": "Desde nuestra fundación, nuestro enfoque es la fidelidad a los principios éticos y el respeto mutuo.",
+        "button_primary": "Solicitar Propuesta",
+        "button_secondary": "Hablar por WhatsApp",
+        "whatsapp_message": "¡Hola! Me gustaría saber más sobre Enclaustramiento de Data Center."
       }
     }
   },

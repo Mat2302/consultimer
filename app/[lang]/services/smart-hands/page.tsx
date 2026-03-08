@@ -1,19 +1,15 @@
 import { getDictionary } from '../../../get-dictionary';
 import { CTASection } from '@/components/shared';
-import { 
-    ServiceDetailHero,
-    ServiceAdvantages,
-    ServiceOfferingsCards
- } from '@/components/services/details';
+import { ServiceDetailHero, ServiceAdvantages, ServiceOfferingsCards } from '@/components/services/details';
 
 interface PageProps {
   params: Promise<{ lang: 'en' | 'pt' | 'es' }>;
 }
 
-export default async function EnergyPage({ params }: PageProps) {
+export default async function SmartHandsPage({ params }: PageProps) {
   const { lang } = await params;
   const dict = await getDictionary(lang);
-  const content = dict.services_details.energy;
+  const content = dict.services_details.smart_hands;
 
   return (
     <main className="min-h-screen bg-white">

@@ -85,14 +85,14 @@
           "image": "/services/comissionamento.png",
           "title": "Commissioning",
           "description": "We ensure that every component or equipment interconnected to the data center infrastructure functions properly.",
-          "link": "/services/comissionamento"
+          "link": "/services/commissioning"
         },
         {
-          "id": "enclausuramento",
+          "id": "containment",
           "image": "/services/enclausuramento.jpg",
           "title": "Containment",
           "description": "A service developed with the objective of reducing PUE (Power Usage Effectiveness) in Data Centers.",
-          "link": "/services/enclausuramento"
+          "link": "/services/containment"
         },
         {
           "id": "loadbanks",
@@ -384,6 +384,314 @@
           "Materials and panels with international quality certification."
         ]
       }
+    },
+    "office": {
+      "title": "Office Installation for Data Centers.",
+      "description": "We perform, complete, and install all types of office work. From new installations to electrical renovations, lighting, masonry, layout changes, and interior design projects.",
+      "checks": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      ],
+      "image": "/services/office-installations.jpg",
+      "cta": "SPEAK WITH A SPECIALIST",
+      "whatsapp_message": "Hello! I would like to speak with a specialist about Office Installation for Data Centers."
+    },
+    "deployment": {
+      "title": "Data Center Deployment.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "checks": [
+        "Spreadsheet analysis and filtering for cable separation and equipment activation.",
+        "Device installation.",
+        "Label printing for identification.",
+        "Cable routing between required positions.",
+        "Activation and organization."
+      ],
+      "image": "/services/deployment-service.jpg",
+      "cta": "SPEAK WITH A SPECIALIST",
+      "whatsapp_message": "Hello! I would like to speak with a specialist about the Data Center Deployment service."
+    },
+    "corpnet": {
+      "title": "Corpnet for Data Centers.",
+      "description": "Corpnet for data centers is a service that analyzes and recommends network configuration and architecture based on each client's needs. Based on the analysis, products and projects are recommended to generate technological advantages for the entire company.",
+      "checks": [
+        "Site mapping (office size and number of Access Points).",
+        "Signal control with managed switches.",
+        "Rack assembly with strategic positioning.",
+        "Equipment installation.",
+        "Infrastructure assembly for structured cabling to enable communication between racks and corporate network workstations.",
+        "Physical layer certification.",
+        "Network configuration and management (port speed control).",
+        "Data protection (Firewall)."
+      ],
+      "image": "/services/corpnet-service.jpg",
+      "cta": "SPEAK WITH A SPECIALIST",
+      "whatsapp_message": "Hello! I would like to speak with a specialist about the Corpnet for Data Centers service."
+    },
+    "technical_moves": {
+      "title": "Technical Moves for Data Centers.",
+      "description": "Complete solutions in Technical Moves for technology removal and relocation. Our engineers can work on a variety of hardware platforms, including servers, storage, and networking equipment. The combination of these activities makes relocation extremely efficient, as Consultimer can seamlessly pack and relocate equipment anywhere in the national territory.",
+      "checks": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      ],
+      "image": "/services/technical-service.jpg",
+      "cta": "SPEAK WITH A SPECIALIST",
+      "whatsapp_message": "Hello! I would like to speak with a specialist about the Technical Moves for Data Centers service."
+    },
+    "smart_hands": {
+      "hero": {
+        "title": "Smart Hands for Data Centers.",
+        "description": [
+          "Smart Hands for Data Centers is essentially a support program where technicians remain available on-site and can respond quickly to issues that may arise within the Data Center.",
+          "The Smart Hands service is an excellent option for companies to save time and money; it provides a qualified team to complete the necessary installations for each project specification.",
+          "Consultimer’s Smart Hands service offers on-site management, troubleshooting, testing, custom installations, and assistance with hardware and cabling issues. Consultimer offers the peace of mind and security of knowing that your infrastructure is in good hands."
+        ],
+        "cta": "SPEAK WITH A SPECIALIST",
+        "image": "/services/smart-hands-hero.jpg"
+      },
+      "offerings": {
+        "title": "Why is Smart Hands the smartest choice?",
+        "items": [
+          {
+            "title": "Fast and Local Response",
+            "icon": "/services/smarthands.png",
+            "paragraphs": [
+              "Smart Hands is a support system where our technicians are positioned on-site to respond rapidly to any type of problem that may occur in your Data Center."
+            ]
+          },
+          {
+            "title": "Multidisciplinary Knowledge",
+            "icon": "/services/fitout.png",
+            "paragraphs": [
+              "While hiring a single certified technician might seem feasible, Smart Hands is much more efficient. Our multidisciplinary team handles virtually all equipment-related tasks, overcoming the limitations of a traditional technician."
+            ]
+          }
+        ]
+      },
+      "advantages": {
+        "title": "Reasons to hire Consultimer.",
+        "text": "Our professionals hold certifications in the market's leading technologies, ensuring excellent and tailor-made service for your infrastructure.",
+        "image": "/services/infraestrutura-vantagens.jpg",
+        "checks": [
+          "Cost savings and budget optimization;",
+          "Personnel with a high level of technical knowledge;",
+          "Customized service for every type and size of data center;",
+          "Operations within international compliance standards and community requirements."
+        ]
+      },
+      "cta_section": {
+        "title": "Need immediate support in your Data Center?",
+        "description": "Speak with our specialists and discover how the Smart Hands service can bring peace of mind and security to your operation.",
+        "quote": "Since our founding, our focus has been on loyalty to ethical principles and mutual respect.",
+        "button_primary": "Request a Proposal",
+        "button_secondary": "Questions on WhatsApp",
+        "whatsapp_message": "Hello! I would like to know more about the Smart Hands service for my Data Center."
+      }
+    },
+    "commissioning": {
+      "hero": {
+        "title": "Data Center Commissioning.",
+        "description": [
+          "Data center commissioning is a process of isolated or joint tests that ensures all infrastructure operates according to design data and identifies potential failures that could put the mission-critical environment at risk after its start of operation.",
+          "This type of service ensures that each component or equipment interconnected to a data center's infrastructure functions properly according to design specifications, delivering reliability and resilience to everyday operations."
+        ],
+        "cta": "SPEAK WITH A SPECIALIST",
+        "image": "/services/projetos.jpg"
+      },
+      "types_section": {
+        "title": "Types of data center commissioning.",
+        "description": "There are several types of commissioning for data centers which, when performed correctly, improve system performance while reducing costs and energy waste.",
+        "items": [
+          {
+            "title": "Data center equipment commissioning",
+            "content": "In this type of commissioning, tests are performed to ensure that the installed equipment complies with the manufacturer's specifications and delivers the appropriate operating capacity for the data center."
+          },
+          {
+            "title": "Electrical system commissioning",
+            "content": "Electrical system commissioning is used to test the redundancy of UPS systems and generators. In this process, local utility power is intentionally disconnected to test the generators' capacity to sustain the entire data center operation.\n\nAdditionally, infrastructure diagnostics are performed to certify that all equipment and grounding are operating as expected."
+          },
+          {
+            "title": "Cooling system commissioning",
+            "content": "This type of commissioning is used to test the effectiveness of the entire data center cooling system. In this phase, the entire set of air conditioning equipment is turned off, and the backup cooling system is automatically activated to meet the environment's demand without affecting data center performance."
+          },
+          {
+            "title": "Alarms and sensors commissioning",
+            "content": "In this type of commissioning, tests are performed to validate all internal system alarms and notifications. When a sensor is triggered (e.g., open door, presence of moisture or smoke), the monitoring system must issue alert signals that highlight a threat situation to the data center."
+          },
+          {
+            "title": "Fire suppression system commissioning",
+            "content": "In this type of commissioning, all equipment part of the fire suppression system is tested. Should there be any evidence of risk, the fire brigade team will be alerted through the control center."
+          }
+        ]
+      },
+      "process_section": {
+        "title": "Commissioning Process",
+        "description": "After our specialized team receives the Owner's Project Requirements (OPR), we will initiate the five main stages of the commissioning process.",
+        "steps": [
+          {
+            "title": "Factory Witness Testing (FWT)",
+            "icon": "/services/comissioning/produtos-criticos.jpg",
+            "text": "This test is performed within the product's factory when mission-critical equipment is purchased from a supplier. The requester will have a copy of the OPR in the purchase specifications, allowing the manufacturer to track and understand expectations before product delivery.",
+            "checks": []
+          },
+          {
+            "title": "Equipment Acceptance Inspection",
+            "icon": "/services/comissioning/aceitacao-equipamento.png",
+            "text": "When mission-critical equipment arrives at the data center, it must be verified before being accepted. Equipment can potentially arrive and not match the OPR specifications, making a thorough inspection even more important.",
+            "checks": []
+          },
+          {
+            "title": "Pre-Functional Testing",
+            "icon": "/services/comissioning/pre-funcionais.png",
+            "text": "Tests and further inspections are completed during the installation phase, verifying if all equipment or systems are up to standard and meeting OPR requirements.\n\nThe equipment/system is started up to ensure it is working correctly and that there are no issues. However, if there are problems such as duct leaks, fan issues, or pressure gauge problems, they must be resolved and adjusted to the standard, with new tests performed until no failure is detected.",
+            "checks": []
+          },
+          {
+            "title": "Functional Performance Testing",
+            "icon": "/services/comissioning/desempenho-functional.png",
+            "text": "The equipment/system undergoes several complete cycles using all different settings. In this way, the functionalities and performance of all equipment are examined.\n\nIt is important that the control loop of each system is examined to ensure the control sequence does what it is intended to do. At this point, equipment is adjusted as necessary and tuned to the OPR.",
+            "checks": []
+          },
+          {
+            "title": "Integrated Systems Testing (IST)",
+            "icon": "/services/comissioning/sistemas-integrados.jpg",
+            "text": "The integrated system test is completed as a final reliability test. To perform this test, the equipment/system will be running and the main power supply is suddenly disconnected to simulate a power outage.\n\nImmediately, the data center's backup power system must take control without issues. Once the test is successfully completed and the OPR is standardized, the data center can begin serving clients with their mission-critical demands.",
+            "checks": []
+          },
+          {
+            "title": "Commissioning Completed",
+            "icon": "/services/comissioning/finalizado.png",
+            "text": "After these data center tests, all equipment or systems will have:",
+            "checks": [
+              "High durability;",
+              "Optimized maintenance;",
+              "Reduction in repairs;",
+              "Faster ROI recovery;",
+              "Less downtime;",
+              "Higher availability rate;",
+              "High reliability rate."
+            ]
+          }
+        ]
+      },
+      "documentation_section": {
+        "title": "Documentation for data center commissioning.",
+        "text": "During the commissioning process, Consultimer not only ensures that all equipment functions properly but also develops system operation manuals and documents.\n\nThese documents will help your team manage the data center, as well as reduce costs from eventual problems.",
+        "image": "/services/comissioning/documentacao.jpg",
+        "checks": []
+      },
+      "cta_section": {
+        "title": "Ensure your Data Center's reliability",
+        "description": "Avoid surprises and failures during your operation's start-up. Speak with our commissioning specialists.",
+        "quote": "Since our founding, our focus has been on loyalty to ethical principles and mutual respect.",
+        "button_primary": "Request a Proposal",
+        "button_secondary": "Chat on WhatsApp",
+        "whatsapp_message": "Hello! I would like to talk about Data Center Commissioning."
+      }
+    },
+    "containment": {
+      "hero": {
+        "title": "Data Center Containment Service",
+        "description": [
+          "Consultimer's data center containment service was developed with the goal of reducing PUE (Power Usage Effectiveness) in Data Centers.",
+          "Our service is fully focused on enabling temperature control, decreasing energy consumption, and increasing the efficiency of new or existing facilities."
+        ],
+        "cta": "SPEAK WITH A SPECIALIST",
+        "image": "/services/containment/containment.jpg"
+      },
+      "offerings": {
+        "title": "Types of containment offered",
+        "items": [
+          {
+            "title": "Cold Aisle Containment (CAC)",
+            "icon": "/services/enclausuramento.jpg",
+            "paragraphs": [
+              "The CAC system facilitates the supply of chilled air to equipment with air inlets at a uniform temperature, promoting the physical separation of cold supply air from hot exhaust air by confining the cold aisle."
+            ]
+          },
+          {
+            "title": "Hot Aisle Containment (HAC)",
+            "icon": "/services/containment/HAC-icon.jpg",
+            "paragraphs": [
+              "The goal of HAC is to capture hot exhaust air and eliminate it or return it to the cooling units. The rest of the environment becomes a cooled room, providing comfort for Data Center operators."
+            ]
+          },
+          {
+            "title": "Cabinet Vertical Exhaust Duct (VED)",
+            "icon": "/services/containment/VED-icon.jpg",
+            "paragraphs": [
+              "The main objective of VED is to contain exhaust air from the cabinets and prevent the mixing of hot and cold air within production environments. In this system, air is captured through collection systems similar to a 'chimney'."
+            ]
+          }
+        ]
+      },
+      "problems_section": {
+        "title": "Common thermal problems in data centers",
+        "description": "If your Data Center does not have an adequate containment system, your operation is losing money and facing daily risks with:",
+        "items": [
+          "Hot air recirculation from rack exhaust returning to the interior of the equipment;",
+          "Leaks due to poor sealing of specific points, such as holes in the raised floor that lead to cold/hot air passing to other aisles;",
+          "Insufficient or excessive air capacity for cooling the environment;",
+          "Mixing of cold and hot air, leading to a loss of energy efficiency;",
+          "Obstruction of air passage, increasing thermal resistance inside the rack;",
+          "Incorrect adjustment of CRAC or CRAH system cooling parameters."
+        ]
+      },
+      "benefits_section": {
+        "title": "Benefits of data center containment",
+        "description": "Our HAC (Hot Aisle Containment) and CAC (Cold Aisle Containment) solutions deliver immediate results for your infrastructure.",
+        "cards": [
+          {
+            "title": "Cooling System Optimization",
+            "icon": "/services/containment/cooling-icon.jpg",
+            "checks": [
+              "Efficiency increase of up to 40%;",
+              "Adaptation to dynamic and continuous loads;",
+              "Reduced fan power per kW of cooling."
+            ]
+          },
+          {
+            "title": "Elimination of Air Mixing",
+            "icon": "/services/containment/wind-icon.jpg",
+            "checks": [
+              "Uniform and predictable temperature for all IT equipment;",
+              "Integrates airflow delivery from the cooling unit with IT equipment needs."
+            ]
+          },
+          {
+            "title": "Increased Cooling Capacity",
+            "icon": "/services/containment/capacity-icon.jpg",
+            "checks": [
+              "Possibility of a 25% increase in cooling capacity;",
+              "Enhanced capacity of existing precision cooling systems."
+            ]
+          },
+          {
+            "title": "Fast Return on Investment (ROI)",
+            "icon": "/services/containment/roi-icon.jpg",
+            "checks": [
+              "Return on investment in up to 2 years;",
+              "Low initial investment."
+            ]
+          }
+        ]
+      },
+      "advantages": {
+        "title": "Advantages of Consultimer's Data Center Containment Service",
+        "text": "We understand that every client requires a personalized service when it comes to data center aisle containment. Each network has unique specifications and considerations.\n\nFor this reason, all of Consultimer's containment solutions are scalable, flexible, and future-proof. Our technical team will create a custom aisle containment system according to your specifications to ensure you get the best possible result.",
+        "image": "/services/projetos.jpg",
+        "checks": []
+      },
+      "cta_section": {
+        "title": "Stop wasting energy today.",
+        "description": "Our engineers are ready to design the perfect containment solution for your Data Center layout.",
+        "quote": "Since our founding, our focus has been on loyalty to ethical principles and mutual respect.",
+        "button_primary": "Request a Proposal",
+        "button_secondary": "Chat on WhatsApp",
+        "whatsapp_message": "Hello! I would like to know more about Data Center Containment."
+      }
     }
   },
   "navbar": {
@@ -401,6 +709,6 @@
     "description": "Consultimer specializes in data center services, managing the entire operation from design and construction to maintenance.",
     "rights_reserved": "All rights reserved",
     "privacy_policy": "Privacy Policy",
-    "ombudsman": "Ouvidoria"
+    "ombudsman": "Ombudsman"
   }
 }

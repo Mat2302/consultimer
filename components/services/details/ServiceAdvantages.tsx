@@ -21,7 +21,7 @@ export default function ServiceAdvantages({ dict }: { dict: any }) {
             </h2>
 
             {dict.text && (
-              <p className="text-zinc-600 text-base md:text-lg mb-8 leading-relaxed">
+              <p className="text-zinc-600 text-base md:text-lg mb-8 leading-relaxed whitespace-pre-line">
                 {dict.text}
               </p>
             )}

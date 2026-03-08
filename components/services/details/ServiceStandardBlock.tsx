@@ -14,11 +14,11 @@ export default function ServiceStandardBlock({ dict }: ServiceStandardProps) {
       <div className="container mx-auto px-6 max-w-7xl">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="order-2 lg:order-1">
-            <h1 className="text-4xl md:text-5xl font-bold text-zinc-900 mb-6 leading-tight">
+            <h1 className="text-4xl font-bold text-zinc-900 mb-6 leading-tight">
               {dict.title}
             </h1>
             
-            <p className="text-zinc-600 text-lg font-light mb-10 leading-relaxed">
+            <p className="text-zinc-800 text-lg font-light mb-10 leading-relaxed">
               {dict.description}
             </p>
 
@@ -26,7 +26,7 @@ export default function ServiceStandardBlock({ dict }: ServiceStandardProps) {
               {dict.checks.map((check: string, idx: number) => (
                 <li key={idx} className="flex items-start gap-4">
                   <Check className="w-6 h-6 text-consultimer-orange shrink-0 mt-0.5" />
-                  <span className="text-zinc-700 text-base">{check}</span>
+                  <span className="text-zinc-800 text-base">{check}</span>
                 </li>
               ))}
             </ul>

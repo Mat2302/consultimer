@@ -1,13 +1,13 @@
 import { getDictionary } from '../../../get-dictionary';
 import { ServiceStandardBlock } from '@/components/services/details';
 
-export default async function FitoutPage({ params }: { params: Promise<{ lang: 'en' | 'pt' | 'es' }> }) {
+export default async function TechnicalMovesPage({ params }: { params: Promise<{ lang: 'en' | 'pt' | 'es' }> }) {
   const { lang } = await params;
   const dict = await getDictionary(lang);
 
   return (
     <main className="min-h-screen bg-white">
-      <ServiceStandardBlock dict={dict.services_details.fitout} />
+      <ServiceStandardBlock dict={dict.services_details.technical_moves} />
     </main>
   );
 }
