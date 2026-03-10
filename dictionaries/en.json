@@ -694,6 +694,12 @@
       }
     }
   },
+  "not_found": {
+    "title": "Page not found or unavailable.",
+    "description": "It seems the link you tried to access is broken or the page has been moved. Don't worry, our core systems remain operational.",
+    "back_home": "Back to Home",
+    "support": "Contact Support"
+  },
   "navbar": {
     "home": "Home",
     "about_us": "About Us",

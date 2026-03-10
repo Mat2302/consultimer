@@ -16,7 +16,7 @@ interface DistributorsSectionProps {
 
 export default function DistributorsSection({ dict }: DistributorsSectionProps) {
   return (
-    <section className="py-20 bg-gray-50 border-t border-gray-100">
+    <section className="py-20 bg-gray-50 border-t border-gray-100" id="brands">
       <div className="container mx-auto px-6">
         
         <h3 className="text-2xl font-bold text-center text-consultimer-dark uppercase tracking-widest mb-12">

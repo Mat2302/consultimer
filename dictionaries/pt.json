@@ -694,6 +694,12 @@
       }
     }
   },
+  "not_found": {
+    "title": "Página não encontrada ou indisponível.",
+    "description": "Parece que o link que você tentou acessar está quebrado ou a página foi movida. Não se preocupe, nossos sistemas principais continuam operando.",
+    "back_home": "Voltar para o Início",
+    "support": "Falar com Suporte"
+  },
   "navbar": {
     "home": "Início",
     "about_us": "Sobre",

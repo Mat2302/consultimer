@@ -694,6 +694,12 @@
       }
     }
   },
+  "not_found": {
+    "title": "Página no encontrada o no disponible.",
+    "description": "Parece que el enlace al que intentó acceder está roto o la página ha sido movida. No se preocupe, nuestros sistemas principales siguen operativos.",
+    "back_home": "Volver al Inicio",
+    "support": "Hablar con Soporte"
+  },
   "navbar": {
     "home": "Inicio",
     "about_us": "Sobre Nosotros",

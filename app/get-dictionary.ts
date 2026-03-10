@@ -1,6 +1,6 @@
 import 'server-only'
 
-type Locale = 'en' | 'pt' | 'es';
+export type Locale = 'en' | 'pt' | 'es';
 
 const dictionaries = {
   en: () => import('../dictionaries/en.json').then((module) => module.default),
