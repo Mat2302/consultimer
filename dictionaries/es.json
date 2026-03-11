@@ -178,12 +178,12 @@
     "distributors_section": {
       "title": "Distribuidor Autorizado",
       "items": [
-        { "name": "Ansell", "logo": "/distributors/ansell.png" },
-        { "name": "Hubbell", "logo": "/distributors/hubbell.png" },
-        { "name": "Waveshare", "logo": "/distributors/waveshare.png" },
-        { "name": "Ergotron", "logo": "/distributors/ergotron.png" },
-        { "name": "ServerLIFT", "logo": "/distributors/server-lift.png" },
-        { "name": "Allegheny", "logo": "/distributors/allegheny-shredders.jpg" }
+        { "name": "Ansell", "logo": "/distributors/ansell.png", "slug": "ansell" },
+        { "name": "Hubbell", "logo": "/distributors/hubbell.png", "slug": "hubbell" },
+        { "name": "Waveshare", "logo": "/distributors/waveshare.png", "slug": "waveshare" },
+        { "name": "Ergotron", "logo": "/distributors/ergotron.png", "slug": "ergotron" },
+        { "name": "ServerLIFT", "logo": "/distributors/server-lift.png", "slug": "server_lift" },
+        { "name": "Allegheny", "logo": "/distributors/allegheny-shredders.jpg", "slug": "allegheny" }
       ]
     },
     "cta_section": {
@@ -692,6 +692,62 @@
         "button_secondary": "Hablar por WhatsApp",
         "whatsapp_message": "¡Hola! Me gustaría saber más sobre Enclaustramiento de Data Center."
       }
+    }
+  },
+  "brands_details": {
+    "ansell": {
+      "hero": {
+        "title": "Ansell Distribuidor Autorizado no Brasil",
+        "hero_image": "/brands/ansell/hero-ansell.jpg",
+        "brand_logo": "/distributors/ansell.png",
+        "description": [
+          "Distribuidor Autorizado Ansell no Brasil, a Consultimer oferece suporte técnico e condições especiais para aquisição de toda alinha de produtos da marca.",
+          "A Ansell é uma marca inovadora empenhada em criar soluções avançadas e tecnologias que solucionem os problemas dos trabalhadores, criando um mundo mais seguro e protegido. A Ansell tem a visão é de um mundo onde as pessoas desfrutem de uma proteção ideal contra os riscos aos quais estão expostas."
+        ],
+        "cta_button": "Solicitar Orçamento"
+      },
+      "products": [
+        {
+          "name": "Luvas para Proteção Mecânica",
+          "description": "A divisão de mecânica da Ansell fabrica e comercializa soluções de proteção multiuso de alto desempenho, específicas para a proteção das mãos e dos braços, em uma vasta gama de aplicações industriais.",
+          "image": "/brands/ansell/luva-protecao-mecanica.png"
+        },
+        {
+          "name": "Luvas para Proteção Química",
+          "description": "Quando se trata de trabalho em ambientes que incluem produtos químicos, a preocupação com o fator proteção é obrigatória, não mera opção. Sinta-se equipado com o abrangente portfólio de soluções de proteção química da Ansell para mãos e corpo.",
+          "image": "/brands/ansell/luva-protecao-quimica.jpg"
+        },
+        {
+          "name": "Luvas para Proteção de Uso Único",
+          "description": "Projetada com formulações avançadas de materiais e tecnologia propria, as luvas de uso único Ansell oferecem vantagens exclusivas, como destreza e aderência superiores, resistência a produtos químicos aprimorada e melhoria da saúde das mãos.",
+          "image": "/brands/ansell/luva-protecao-uso-uinco.jpg"
+        },
+        {
+          "name": "Luvas de Proteção contra Corte e Óleo",
+          "description": "Não importa se você precisa de resistência máxima ou mínima contra corte e óleo; temos a luva que garante o nível certo de proteção para você, sem sacrificar o conforto ou a destreza.",
+          "image": "/brands/ansell/luva-protecao-corte-oleo.jpg"
+        },
+        {
+          "name": "Luvas de Proteção Multiuso",
+          "description": "Oferecemos uma vasta seleção de luvas multiuso que proporcionam níveis variados de proteção, destreza e aderência para uma ampla gama de aplicações.",
+          "image": "/brands/ansell/luva-protecao-multiuso.jpg"
+        },
+        {
+          "name": "Luvas de Proteção Especializada",
+          "description": "Lesões nas mãos e dedos estão entre as principais lesões em setores com risco de impactos. A vibração constante pode causar danos à mão, pulso e braço e provocar dormência permanente e perda de destreza. Por isso oferecemos nossas luvas Ringers de alto impacto com maior proteção, destreza e conforto para manter as mãos seguras nos mais variados segmentos de mercado.",
+          "image": "/brands/ansell/luva-protecao-especializada.jpg"
+        },
+        {
+          "name": "Luvas para Produção e Manufatura",
+          "description": "Soluções de proteção eliminam a contaminação cruzada durante a fabricação de produtos essenciais, incluindo vacinas, comprimidos e medicamentos contra o câncer em um ambiente de sala limpa.",
+          "image": "/brands/ansell/luva-producao-manufatura.jpg"
+        },
+        {
+          "name": "Luvas para Laboratório e Pesquisa Científica",
+          "description": "Soluções de segurança de laboratório que protegem os trabalhadores de perigos químicos, biológicos e físicos no ambiente do laboratório.",
+          "image": "/brands/ansell/luvas-pesquisa-cientifica.png"
+        }
+      ]
     }
   },
   "not_found": {

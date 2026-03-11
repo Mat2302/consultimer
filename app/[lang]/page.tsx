@@ -27,7 +27,7 @@ export default async function Home({ params }: PageProps) {
       <TeamSection dict={dict.home.team_section} />
       <DifferentialsSection dict={dict.home.differentials_section} />
       <CertificationsSection dict={dict.home.certifications_section} />
-      <DistributorsSection dict={dict.home.distributors_section} />
+      <DistributorsSection dict={dict.home.distributors_section} lang={lang} />
       <CTASection dict={dict.home.cta_section} lang={lang} />
     </main>
   )

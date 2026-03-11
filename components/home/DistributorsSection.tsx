@@ -1,10 +1,12 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 
 interface DistributorItem {
   name: string;
   logo: string;
+  slug: string; 
 }
 
 interface DistributorsSectionProps {
@@ -12,9 +14,10 @@ interface DistributorsSectionProps {
     title: string;
     items: DistributorItem[];
   };
+  lang: string; 
 }
 
-export default function DistributorsSection({ dict }: DistributorsSectionProps) {
+export default function DistributorsSection({ dict, lang }: DistributorsSectionProps) {
   return (
     <section className="py-20 bg-gray-50 border-t border-gray-100" id="brands">
       <div className="container mx-auto px-6">
@@ -25,7 +28,8 @@ export default function DistributorsSection({ dict }: DistributorsSectionProps) 
 
         <div className="flex flex-wrap justify-center items-center gap-x-16 gap-y-10">
           {dict.items.map((item, index) => (
-            <div 
+            <Link 
+              href={`/${lang}/brands/${item.slug}`}
               key={index}
               className="
                 relative w-32 h-16 md:w-40 md:h-20 
@@ -45,7 +49,7 @@ export default function DistributorsSection({ dict }: DistributorsSectionProps) 
                 className="object-contain"
                 sizes="160px"
               />
-            </div>
+            </Link>
           ))}
         </div>
 
