@@ -697,55 +697,143 @@
   "brands_details": {
     "ansell": {
       "hero": {
-        "title": "Ansell Distribuidor Autorizado no Brasil",
+        "title": "Ansell",
         "hero_image": "/brands/ansell/hero-ansell.jpg",
         "brand_logo": "/distributors/ansell.png",
         "description": [
-          "Distribuidor Autorizado Ansell no Brasil, a Consultimer oferece suporte técnico e condições especiais para aquisição de toda alinha de produtos da marca.",
-          "A Ansell é uma marca inovadora empenhada em criar soluções avançadas e tecnologias que solucionem os problemas dos trabalhadores, criando um mundo mais seguro e protegido. A Ansell tem a visão é de um mundo onde as pessoas desfrutem de uma proteção ideal contra os riscos aos quais estão expostas."
+          "Como Distribuidor Autorizado de Ansell en Brasil, Consultimer ofrece soporte técnico y condiciones especiales para la adquisición de toda la línea de productos de la marca.",
+          "Ansell es una marca innovadora comprometida con la creación de soluciones avanzadas y tecnologías que resuelven los problemas de los trabajadores, creando un mundo más seguro y protegido. La visión de Ansell es un mundo donde las personas disfruten de una protección óptima contra los riesgos a los que están expuestas."
         ],
-        "cta_button": "Solicitar Orçamento"
+        "cta_button": "Solicitar Presupuesto"
       },
       "products": [
         {
-          "name": "Luvas para Proteção Mecânica",
-          "description": "A divisão de mecânica da Ansell fabrica e comercializa soluções de proteção multiuso de alto desempenho, específicas para a proteção das mãos e dos braços, em uma vasta gama de aplicações industriais.",
+          "name": "Guantes de Protección Mecánica",
+          "description": "La división de mecánica de Ansell fabrica y comercializa soluciones de protección multiuso de alto rendimiento, específicas para la protección de manos y brazos en una amplia gama de aplicaciones industriales.",
           "image": "/brands/ansell/luva-protecao-mecanica.png"
         },
         {
-          "name": "Luvas para Proteção Química",
-          "description": "Quando se trata de trabalho em ambientes que incluem produtos químicos, a preocupação com o fator proteção é obrigatória, não mera opção. Sinta-se equipado com o abrangente portfólio de soluções de proteção química da Ansell para mãos e corpo.",
+          "name": "Guantes de Protección Química",
+          "description": "Cuando se trata de trabajar en entornos con productos químicos, la protección es obligatoria, no una opción. Siéntase equipado con el amplio portafolio de soluciones de protección química de Ansell para manos y cuerpo.",
           "image": "/brands/ansell/luva-protecao-quimica.jpg"
         },
         {
-          "name": "Luvas para Proteção de Uso Único",
-          "description": "Projetada com formulações avançadas de materiais e tecnologia propria, as luvas de uso único Ansell oferecem vantagens exclusivas, como destreza e aderência superiores, resistência a produtos químicos aprimorada e melhoria da saúde das mãos.",
-          "image": "/brands/ansell/luva-protecao-uso-uinco.jpg"
+          "name": "Guantes de Protección de Uso Único",
+          "description": "Diseñados con formulaciones de materiales avanzados y tecnología propia, los guantes de un solo uso de Ansell ofrecen ventajas exclusivas como destreza y agarre superiores, resistencia química mejorada y mejor salud de las manos.",
+          "image": "/brands/ansell/luva-protecao-uso-unico.jpg"
         },
         {
-          "name": "Luvas de Proteção contra Corte e Óleo",
-          "description": "Não importa se você precisa de resistência máxima ou mínima contra corte e óleo; temos a luva que garante o nível certo de proteção para você, sem sacrificar o conforto ou a destreza.",
+          "name": "Guantes de Protección contra Cortes y Aceite",
+          "description": "No importa si necesita resistencia máxima o mínima contra cortes y aceite; tenemos el guante que garantiza el nivel adecuado de protección para usted, sin sacrificar la comodidad o la destreza.",
           "image": "/brands/ansell/luva-protecao-corte-oleo.jpg"
         },
         {
-          "name": "Luvas de Proteção Multiuso",
-          "description": "Oferecemos uma vasta seleção de luvas multiuso que proporcionam níveis variados de proteção, destreza e aderência para uma ampla gama de aplicações.",
+          "name": "Guantes de Protección Multiuso",
+          "description": "Ofrecemos una amplia selección de guantes multiuso que proporcionan niveles variados de protección, destreza y agarre para una gran gama de aplicaciones.",
           "image": "/brands/ansell/luva-protecao-multiuso.jpg"
         },
         {
-          "name": "Luvas de Proteção Especializada",
-          "description": "Lesões nas mãos e dedos estão entre as principais lesões em setores com risco de impactos. A vibração constante pode causar danos à mão, pulso e braço e provocar dormência permanente e perda de destreza. Por isso oferecemos nossas luvas Ringers de alto impacto com maior proteção, destreza e conforto para manter as mãos seguras nos mais variados segmentos de mercado.",
+          "name": "Guantes de Protección Especializada",
+          "description": "Las lesiones en manos y dedos se encuentran entre las principales en sectores con riesgo de impacto. La vibración constante puede dañar la mano, muñeca y brazo. Por ello, ofrecemos guantes Ringers de alto impacto con mayor protección y confort para mantener las manos seguras.",
           "image": "/brands/ansell/luva-protecao-especializada.jpg"
         },
         {
-          "name": "Luvas para Produção e Manufatura",
-          "description": "Soluções de proteção eliminam a contaminação cruzada durante a fabricação de produtos essenciais, incluindo vacinas, comprimidos e medicamentos contra o câncer em um ambiente de sala limpa.",
+          "name": "Guantes para Producción y Manufactura",
+          "description": "Soluciones de protección que eliminan la contaminación cruzada durante la fabricación de productos esenciales, incluyendo vacunas y medicamentos en entornos de sala blanca.",
           "image": "/brands/ansell/luva-producao-manufatura.jpg"
         },
         {
-          "name": "Luvas para Laboratório e Pesquisa Científica",
-          "description": "Soluções de segurança de laboratório que protegem os trabalhadores de perigos químicos, biológicos e físicos no ambiente do laboratório.",
-          "image": "/brands/ansell/luvas-pesquisa-cientifica.png"
+          "name": "Guantes para Laboratorio e Investigación Científica",
+          "description": "Soluciones de seguridad de laboratorio que protegen a los trabajadores de peligros químicos, biológicos y físicos en el entorno del laboratorio.",
+          "image": "/brands/ansell/luva-pesquisa-cientifica.png"
+        }
+      ]
+    },
+    "allegheny": {
+      "hero": {
+        "title": "Allegheny Shredders",
+        "hero_image": "/brands/allegheny/hero-allegheny.jpg",
+        "brand_logo": "/distributors/allegheny-shredders.jpg",
+        "description": [
+          "Consultimer es distribuidor autorizado de Allegheny Shredders en Brasil y ofrece soporte técnico y condiciones especiales a sus clientes para la adquisición de los productos de la marca.",
+          "La historia de la empresa Allegheny Shredders comenzó hace más de 50 años, cuando John Wagner empezó a construir una trituradora industrial para superar a la trituradora de papel de 7,5 HP, que era la más potente de la época. En 1971, introdujo la primera trituradora industrial de servicio pesado para la industria del papel, abriendo el camino para máquinas cada vez más potentes que llevaron al actual modelo de 300 HP de Allegheny.",
+          "Desde aquellos primeros días, la empresa ha sido el ícono de la industria de trituración de papel y e-scrap, ampliamente reconocida como el líder mundial en destrucción de información."
+        ],
+        "cta_button": "Solicitar Presupuesto"
+      },
+      "products": [
+        {
+          "name": "Trituradora de Discos Duros (HD)",
+          "description": "La Trituradora de HD fue diseñada para destruir con seguridad y eficiencia discos duros de computadoras, medios ópticos y otros dispositivos electrónicos (teléfonos, celulares y memorias USB).\n\nLa trituración efectuada por el equipo promueve la máxima protección, eliminando cualquier posibilidad de reconstrucción y recuperación de datos confidenciales o personales que deben ser preservados y asegurados conforme a la Ley General de Protección de Datos (LGPD). Además, la Trituradora de HD convierte en pequeños fragmentos aparatos que sobrecargan grandes espacios físicos dentro de la empresa.",
+          "image": "/brands/allegheny/triturador-hd.jpg"
+        }
+      ]
+    },
+    "ergotron": {
+      "hero": {
+        "title": "Ergotron",
+        "hero_image": "/brands/ergotron/hero-ergotron.jpg",
+        "brand_logo": "/distributors/ergotron.png",
+        "description": [
+          "Como distribuidor autorizado de Ergotron en Brasil, Consultimer ofrece soporte técnico y condiciones especiales para la adquisición de productos Ergotron. Ergotron utiliza un diseño centrado en el ser humano para construir entornos de trabajo cinéticos que ayudan al rendimiento del colaborador. Adapte su espacio de trabajo al movimiento con soportes para monitor, escritorios para trabajar sentado o de pie y estaciones de trabajo móviles.",
+          "Ergotron es una empresa de movimiento. Esta ha sido la esencia de Ergotron desde que Harry Sweere fundó la empresa en 1982 y obtuvo patentes para los primeros soportes de inclinación ergonómicos, brazos de montaje y soportes de escritorio. El legado de innovación de Harry Sweere guía cómo la empresa ayuda a los clientes a enfrentar los desafíos actuales y continúa difundiendo los valores esenciales para una vida saludable."
+        ],
+        "cta_button": "Solicitar Presupuesto",
+        "catalog_button": "Catálogo Ergotron",
+        "catalog_link": "/catalogs/ergotron-2022.pdf"
+      },
+      "products": [
+        {
+          "name": "Equipos Ergonómicos para Hospitales y Clínicas",
+          "description": "Mejore los flujos de trabajo y promueva experiencias positivas para los pacientes con carros médicos y soportes de pared para computadoras que ayudan en el día a día de los profesionales de la salud.",
+          "image": "/brands/ergotron/hospitais-clinicas.jpg"
+        },
+        {
+          "name": "Equipos Ergonómicos para Oficinas",
+          "description": "Transforme los entornos de oficina sedentarios en espacios activos que promuevan la productividad y el bienestar de todos los trabajadores.",
+          "image": "/brands/ergotron/escritorio.jpg"
+        },
+        {
+          "name": "Equipos Ergonómicos para Escuelas y Universidades",
+          "description": "Cree entornos de aprendizaje activos para estudiantes y profesores para impulsar la colaboración, el enfoque y el rendimiento académico.",
+          "image": "/brands/ergotron/escolas-universidades.jpg"
+        },
+        {
+          "name": "Equipos Ergonómicos para la Industria",
+          "description": "Equipe su instalación para respaldar iniciativas de manufactura esbelta (lean manufacturing) utilizando estaciones de trabajo de altura ajustable, soportes de monitores y carros de computadora.",
+          "image": "/brands/ergotron/industria.jpg"
+        }
+      ]
+    },
+    "server_lift": {
+      "hero": {
+        "title": "Server Lift",
+        "hero_image": "/brands/server-lift/hero-server-lift.jpg",
+        "brand_logo": "/brands/server-lift/logo-server-lift.jpg",
+        "description": [
+          "Consultimer es distribuidor autorizado de Server Lift en Brasil y ofrece soporte técnico y condiciones especiales a sus clientes para la adquisición de los productos de la marca.",
+          "A principios de la década de 2000, los fundadores de ServerLift se dieron cuenta de que los data centers necesitaban un equipo para levantar, mover y apoyar físicamente a los operadores que requerían instalar y retirar dispositivos de los racks.",
+          "Teniendo esto en cuenta, la empresa diseñó un elevador altamente preciso para el levantamiento dentro de los data centers, atendiendo las crecientes demandas, procesos de TI y tendencias del sector."
+        ],
+        "cta_button": "Solicitar Presupuesto",
+        "catalog_button": "Catálogo Server Lift",
+        "catalog_link": "/catalogs/server-lift-2021.pdf"
+      },
+      "products": [
+        {
+          "name": "Transforme su data center con la solución de elevación más confiable del mercado",
+          "description": "La única herramienta de gestión de servidores que puede ser utilizada por cualquier persona para transportar, posicionar, instalar o retirar cualquier tipo de equipo dentro del entorno del data center con seguridad y eficiencia.",
+          "image": "/brands/server-lift/elevador-confiavel.jpg"
+        },
+        {
+          "name": "Elevadores diseñados para trabajos críticos",
+          "description": "Este equipo fue diseñado para cumplir con los estándares globales de seguridad y puede manipular servidores en suelos irregulares y entornos estrechos.\n\nCon un sistema de ruedas desarrollado para permitir que el equipo se mueva en cualquier dirección con estabilidad y precisión.",
+          "image": "/brands/server-lift/trabalhos-criticos.jpg"
+        },
+        {
+          "name": "La seguridad es nuestra prioridad",
+          "description": "Los elevadores están certificados para cumplir con los estándares de la norma NR-12 y las normativas globales de seguridad.\n\nSus componentes fueron fabricados sin fisuras ni aberturas para evitar el atrapamiento de miembros superiores e inferiores. La ergonomía del equipo previene lesiones o fracturas en la columna vertebral del usuario.",
+          "image": "/brands/server-lift/seguranca.png"
         }
       ]
     }

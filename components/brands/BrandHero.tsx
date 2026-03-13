@@ -8,6 +8,8 @@ interface BrandHeroProps {
     brand_logo: string;
     description: string[];
     cta_button: string;
+    catalog_button?: string;
+    catalog_link?: string;
   };
   lang: string;
 }
@@ -34,18 +36,31 @@ export default function BrandHero({ dict, lang }: BrandHeroProps) {
             
             <div className="space-y-4 mb-8">
               {dict.description.map((paragraph, index) => (
-                <p key={index} className="text-zinc-600 text-lg leading-relaxed text-justify">
+                <p key={index} className="text-zinc-700 text-lg leading-relaxed text-justify">
                   {paragraph}
                 </p>
               ))}
             </div>
 
-            <Link 
-              href={`/${lang}/contact`}
-              className="inline-block px-8 py-3 bg-consultimer-orange text-white font-semibold rounded hover:bg-orange-600 transition-colors duration-300 shadow-sm"
-            >
-              {dict.cta_button}
-            </Link>
+            <div className="flex flex-wrap items-center gap-4 mb-8">
+              <Link 
+                href={`/${lang}/contato`}
+                className="inline-block px-8 py-3 bg-consultimer-orange text-white font-semibold rounded hover:bg-orange-600 transition-colors duration-300 shadow-sm"
+              >
+                {dict.cta_button}
+              </Link>
+
+              {dict.catalog_button && dict.catalog_link && (
+                <a 
+                  href={dict.catalog_link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block px-8 py-3 bg-white text-consultimer-orange border-2 border-consultimer-orange font-semibold rounded hover:bg-orange-50 transition-colors duration-300 shadow-sm"
+                >
+                  {dict.catalog_button}
+                </a>
+              )}
+            </div>
           </div>
 
           <div className="w-full md:w-auto flex justify-center md:justify-end shrink-0">

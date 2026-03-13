@@ -697,7 +697,7 @@
   "brands_details": {
     "ansell": {
       "hero": {
-        "title": "Ansell Distribuidor Autorizado no Brasil",
+        "title": "Ansell",
         "hero_image": "/brands/ansell/hero-ansell.jpg",
         "brand_logo": "/distributors/ansell.png",
         "description": [
@@ -720,7 +720,7 @@
         {
           "name": "Luvas para Proteção de Uso Único",
           "description": "Projetada com formulações avançadas de materiais e tecnologia propria, as luvas de uso único Ansell oferecem vantagens exclusivas, como destreza e aderência superiores, resistência a produtos químicos aprimorada e melhoria da saúde das mãos.",
-          "image": "/brands/ansell/luva-protecao-uso-uinco.jpg"
+          "image": "/brands/ansell/luva-protecao-uso-unico.jpg"
         },
         {
           "name": "Luvas de Proteção contra Corte e Óleo",
@@ -745,7 +745,95 @@
         {
           "name": "Luvas para Laboratório e Pesquisa Científica",
           "description": "Soluções de segurança de laboratório que protegem os trabalhadores de perigos químicos, biológicos e físicos no ambiente do laboratório.",
-          "image": "/brands/ansell/luvas-pesquisa-cientifica.png"
+          "image": "/brands/ansell/luva-pesquisa-cientifica.png"
+        }
+      ]
+    },
+    "allegheny": {
+      "hero": {
+        "title": "Allegheny Shredders",
+        "hero_image": "/brands/allegheny/hero-allegheny.jpg",
+        "brand_logo": "/distributors/allegheny-shredders.jpg",
+        "description": [
+          "A Consultimer é distribuidora autorizada Allegheny Shredders no Brasil e oferece suporte técnico e condições especiais aos seus clientes para aquisição dos produtos da marca.",
+          "A história da empresa Allegheny Shredders iniciou há mais de 50 anos, quando John Wagner começou a construir uma trituradora industrial para superar a trituradora de papel de 7,5 HP que era a mais poderosa da época. Em 1971, ele introduziu a primeira trituradora industrial de serviço pesado para indústria de papel, abrindo caminho para máquinas cada vez mais potentes que levaram ao atual modelo de 300 HP da Allegheny.",
+          "Desde aqueles primeiros dias, a empresa tem sido o ícone da indústria de trituração de papel e e-scrap, amplamente reconhecida como a líder mundial em destruição de informações."
+        ],
+        "cta_button": "Solicitar Orçamento"
+      },
+      "products": [
+        {
+          "name": "Triturador de HD",
+          "description": "O Triturador de HD foi projetado para destruir com segurança e eficiência discos rígidos de computadores, mídias ópticas e outros dispositivos eletrônicos (telefones, celulares e pen drives).\n\nA trituração efetuada pelo equipamento promove proteção máxima, eliminando qualquer possibilidade de reconstrução e recuperação de dados sigilosos ou pessoais que devem ser preservados e assegurados conforme a Lei Geral de Proteção de Dados (LGPD). Além disso, o Triturador de HD converte em pequenos fragmentos aparelhos que sobrecarregam grandes espaços físicos dentro da empresa.",
+          "image": "/brands/allegheny/triturador-hd.jpg"
+        }
+      ]
+    },
+    "ergotron": {
+      "hero": {
+        "title": "Ergotron",
+        "hero_image": "/brands/ergotron/hero-ergotron.jpg",
+        "brand_logo": "/distributors/ergotron.png",
+        "description": [
+          "Distribuidor autorizado Ergotron no Brasil, a Cosultimer oferece suporte técnico e condições especiais a para aquisição dos produtos da Ergotron. A Ergotron utiliza design centrado no ser humano para construir ambientes de trabalho cinéticos que ajudam no redimento do colaborador. Adpte o espaço de trabalho para o movimento com suportes de monitor, mesas para trabalho sentado ou em pé e estações de trabalho móveis.",
+          "A Ergotron é uma empresa de movimento. Essa é a essência da Ergotron desde que Harry Sweere fundou a empresa em 1982 e ganhou patentes dos primeiros suportes de inclinação ergonômicos, braços de montagem e suportes de mesa. O legado de inovação de Harry Sweere orienta como a empresa auxilia clientes a enfrentar os desafios de hoje e dar continuidade na propagação dos valores essenciais para uma vida saudável."
+        ],
+        "cta_button": "Solicitar Orçamento",
+        "catalog_button": "Catálogo Ergotron",
+        "catalog_link": "/catalogs/ergotron-2022.pdf"
+      },
+      "products": [
+        {
+          "name": "Equipamentos Ergonômicos para Hospitais e Clínicas",
+          "description": "Aprimore os fluxos de trabalho e promova experiências positivas dos pacientes com carrinhos médicos e suportes de parede para computador que ajudam no dia-a-dia dos profissionais de saúde.",
+          "image": "/brands/ergotron/hospitais-clinicas.jpg"
+        },
+        {
+          "name": "Equipamentos Ergonômicos para Escritórios",
+          "description": "Transforme ambientes de escritório sedentários em espaços ativos que promovam produtividade e bem-estar para todos os trabalhadores.",
+          "image": "/brands/ergotron/escritorio.jpg"
+        },
+        {
+          "name": "Equipamentos Ergonômicos para Escolas e Universidades",
+          "description": "Crie ambientes de aprendizado ativos para alunos e professores para impulsionar a colaboração, o foco e o desempenho acadêmico.",
+          "image": "/brands/ergotron/escolas-universidades.jpg"
+        },
+        {
+          "name": "Equipamentos Ergonômicos para Indústria",
+          "description": "Equipe sua instalação para dar suporte a iniciativas de manufatura enxuta usando estações de trabalho com altura ajustável, montagens de monitores e carrinhos de computador.",
+          "image": "/brands/ergotron/industria.jpg"
+        }
+      ]
+    },
+    "server_lift": {
+      "hero": {
+        "title": "Server Lift",
+        "hero_image": "/brands/server-lift/hero-server-lift.jpg",
+        "brand_logo": "/brands/server-lift/logo-server-lift.jpg",
+        "description": [
+          "A Consultimer é distribuidora autorizada Server Lift no Brasil e oferece suporte técnico e condições especiais aos seus clientes para aquisição dos produtos da marca.",
+          "No início dos anos 2000, os fundadores da ServerLift perceberam que os data centers precisavam de um equipamento para levantar, mover e dar suporte fisicamente aos operadores que necessitavam instalar e remover dispositivos dos racks.",
+          "Levando isso em consideração, a empresa projetou um elevador altamente preciso para levantamento dentro de data centers, atendendo as crescentes demandas, processos de TI e tendências do setor."
+        ],
+        "cta_button": "Solicitar Orçamento",
+        "catalog_button": "Catálogo Server Lift",
+        "catalog_link": "/catalogs/server-lift-2021.pdf"
+      },
+      "products": [
+        {
+          "name": "Transforme seu data center com a solução de elevação mais confiável do mercado",
+          "description": "Única ferramenta de gerenciamento de servidores que pode ser utilizada por qualquer pessoa para transportar, posicionar, instalar ou remover qualquer tipo de equipamento dentro do ambiente do data center com segurança e eficiência.",
+          "image": "/brands/server-lift/elevador-confiavel.jpg"
+        },
+        {
+          "name": "Elevadores projetados para trabalhos críticos",
+          "description": "Este equipamento foi projetado para atender aos padrões globais de segurança e podem manusear servidores em pisos irregulares e ambientes estreitos.\n\nCom sistema de rodízio desenvolvido para fazer o equipamento movimentar-se em qualquer direção com estabilidade e precisão.",
+          "image": "/brands/server-lift/trabalhos-criticos.jpg"
+        },
+        {
+          "name": "Segurança é a nossa prioridade",
+          "description": "Os elevadores são certificados para atender aos padrões da NR-12 e normas globais de segurança.\n\nSeus componentes foram produzidos sem fissuras ou aberturas para evitar o prensamento de membros superiores e inferiores.A ergonomia do equipamento impede lesões ou fraturas na coluna coluna vertebral do usuário.",
+          "image": "/brands/server-lift/seguranca.png"
         }
       ]
     }
