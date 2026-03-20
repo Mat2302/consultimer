@@ -42,7 +42,7 @@ export default function Navbar({ dict }: NavbarProps) {
     { name: dict.about_us, href: "/about" },
     { name: dict.services, href: "/services" },
     { name: dict.products, href: "/products" },
-    { name: dict.brands, href: "/#brands" },
+    { name: dict.brands, href: "/brands" },
     { name: dict.news, href: "/news" },
     { name: dict.careers, href: siteConfig.links.jobify },
     { name: dict.contact, href: "/contact" },

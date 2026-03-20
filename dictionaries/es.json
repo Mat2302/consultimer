@@ -838,6 +838,80 @@
       ]
     }
   },
+  "contact_page": {
+    "hero": {
+      "title": "Contáctenos",
+      "description": "Póngase en contacto con Consultimer. Nuestro equipo está listo para atender las necesidades de su empresa."
+    },
+    "locations": [
+      {
+        "title": "Cosmópolis, Brasil",
+        "email": "contato@consultimer.com",
+        "phone": "+55 19 3812-9700"
+      },
+      {
+        "title": "Miami, EE. UU.",
+        "email": "contact@consultimer.com",
+        "phone": "+1 786 539-4731"
+      },
+      {
+        "title": "Santiago, Chile",
+        "email": "contacto@consultimer.com",
+        "phone": "+56 2 2570-8458"
+      },
+      {
+        "title": "Querétaro, México",
+        "email": "contacto@consultimer.com",
+        "phone": "+52 442-348-6339"
+      }
+    ],
+    "form": {
+      "name_label": "Nombre *",
+      "name_placeholder": "Ingrese su nombre completo",
+      "email_label": "Correo electrónico *",
+      "email_placeholder": "su@correo.corporativo.com",
+      "subject_label": "Asunto",
+      "subject_placeholder": "Ej: Solicitud de presupuesto",
+      "message_label": "Mensaje *",
+      "message_placeholder": "¿Cómo podemos ayudar a su empresa hoy?",
+      "privacy_checkbox": "* He leído y acepto los términos de uso de la política de privacidad",
+      "privacy_link_text": "Lea los términos de la Política de Privacidad de Consultimer",
+      "submit_button": "Enviar"
+    }
+  },
+  "brands_page": {
+    "hero": {
+      "title": "Nuestras Marcas Asociadas",
+      "description": "Trabajamos en conjunto con los principales fabricantes globales para brindar soluciones de alto rendimiento, seguridad y tecnología para su empresa."
+    },
+    "view_more": "Ver Detalles",
+    "list": [
+      {
+        "name": "Ansell",
+        "slug": "ansell",
+        "short_description": "Líder global en soluciones de protección y seguridad.",
+        "logo": "/distributors/ansell.png"
+      },
+      {
+        "name": "Ergotron",
+        "slug": "ergotron",
+        "short_description": "Soluciones ergonómicas para entornos de trabajo y salud.",
+        "logo": "/distributors/ergotron.png"
+      },
+      {
+        "name": "ServerLIFT",
+        "slug": "server_lift",
+        "short_description": "Equipos premium para el manejo seguro de centros de datos.",
+        "logo": "/distributors/server-lift.png"
+      },
+      {
+        "name": "Allegheny Shredders",
+        "slug": "allegheny",
+        "short_description": "Líder mundial en equipos para la destrucción de información.",
+        "logo": "/distributors/allegheny-shredders.jpg"
+      }
+    ]
+  },
   "not_found": {
     "title": "Página no encontrada o no disponible.",
     "description": "Parece que el enlace al que intentó acceder está roto o la página ha sido movida. No se preocupe, nuestros sistemas principales siguen operativos.",
