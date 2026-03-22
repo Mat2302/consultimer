@@ -35,7 +35,7 @@ export default async function NotFoundCatchAll({ params }: { params: Promise<{ l
           </Link>
           
           <Link 
-            href={`/${lang}/contato`}
+            href={`/${lang}/contact`}
             className="inline-flex justify-center items-center gap-2 px-8 py-3 bg-white text-zinc-700 font-semibold rounded border border-zinc-200 hover:bg-zinc-50 transition-colors duration-300"
           >
             {dict.not_found.support}
