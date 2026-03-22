@@ -1,11 +1,9 @@
 import "../globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { getDictionary } from "@/app/get-dictionary";
+import { getDictionary, Locale } from "@/app/get-dictionary";
 import { Geist, Geist_Mono } from "next/font/google";
 import type { Metadata } from "next";
-
-type Locale = 'pt' | 'en' | 'es';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,10 +25,11 @@ export default async function RootLayout({
   params,
 }: { 
   children: React.ReactNode, 
-  params: Promise<{ lang: Locale }>;
+  params: Promise<{ lang: string }>;
 }) {
   const { lang } = await params;
-  const dictionary = await getDictionary(lang);
+  const currentLang = lang as Locale;
+  const dictionary = await getDictionary(currentLang);
   return (
     <html lang={lang}>
       <body className="pt-20">
