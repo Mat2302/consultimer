@@ -30,7 +30,7 @@ export default async function BrandsMasterPage({ params }: { params: Promise<{ l
                 <img 
                   src={brand.logo} 
                   alt={`Logo ${brand.name}`} 
-                  className="max-h-full max-w-full object-contain grayscale group-hover:grayscale-0 transition-all duration-300" 
+                  className="max-h-full max-w-full object-contain transition-all duration-300" 
                 />
               </div>
 
