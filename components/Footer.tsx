@@ -19,28 +19,28 @@ export default function Footer({ dict }: FooterProps) {
         {
             country: "Brazil",
             city: "Cosmópolis",
-            flag: "/brasil_footer.png",
+            flag: "/logos/footer/brasil_footer.png",
             email: siteConfig.contact_brazil.email,
             phone: siteConfig.contact_brazil.phone
         },
         {
             country: "USA",
             city: "Miami",
-            flag: "/usa_footer.png",
+            flag: "/logos/footer/usa_footer.png",
             email: siteConfig.contact_usa.email,
             phone: siteConfig.contact_usa.phone
         },
         {
             country: "Chile",
             city: "Santiago",
-            flag: "/chile_footer.png",
+            flag: "/logos/footer/chile_footer.png",
             email: siteConfig.contact_chile.email,
             phone: siteConfig.contact_chile.phone
         },
         {
             country: "México",
             city: "Querétaro",
-            flag: "/mexico_footer.png",
+            flag: "/logos/footer/mexico_footer.png",
             email: siteConfig.contact_mexico.email,
             phone: siteConfig.contact_mexico.phone
         }
@@ -74,7 +74,7 @@ export default function Footer({ dict }: FooterProps) {
             <div className="flex flex-col xl:flex-row gap-12">
               <div className="xl:w-1/3 space-y-6">
                 <div className="relative w-48 h-12">
-                  <Image src='/consultimer-logo-branco.png' alt="Consultimer Group" fill className="object-contain"/>
+                  <Image src='/logos/consultimer-white-logo.png' alt="Consultimer Group" fill className="object-contain"/>
                 </div>
 
                 <p className="text-sm leading-relaxed text-gray-400">

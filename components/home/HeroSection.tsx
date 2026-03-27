@@ -14,7 +14,7 @@ export default function HeroSection({ dict, lang }: HeroSectionProps) {
   return (
     <section className="text-consultimer-white-label relative w-full h-160 items-center">
       <div className="absoule isnet-0 -z-10 py-20">
-          <Image src="/hero-bg.jpg" alt="Empresa especializada em Data Center" fill
+          <Image src="/home/hero-bg.jpg" alt="Empresa especializada em Data Center" fill
             className="object-cover object-center md:object-right" priority/>
           <div className="absolute inset-0 bg-linear-to-r from-consultimer-dark via-consultimer-dark/80 to-transparent pointer-events-none md:hidden"></div>
       </div>

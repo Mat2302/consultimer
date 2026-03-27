@@ -57,7 +57,7 @@ export default function ExperienceSection({ dict, lang }: ExperienceSectionProps
             <div className="relative w-full max-w-125 aspect-square">
               <div className="relative w-full h-full">
                  <Image
-                  src="/earth-globe.jpg"
+                  src="/home/earth-globe.jpg"
                   alt="Consultimer Global Presence"
                   fill
                   className="object-contain"

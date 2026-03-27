@@ -178,12 +178,12 @@
     "distributors_section": {
       "title": "Distribuidor Autorizado",
       "items": [
-        { "name": "Ansell", "logo": "/distributors/ansell.png", "slug": "ansell" },
-        { "name": "Hubbell", "logo": "/distributors/hubbell.png", "slug": "hubbell" },
-        { "name": "Waveshare", "logo": "/distributors/waveshare.png", "slug": "waveshare" },
-        { "name": "Ergotron", "logo": "/distributors/ergotron.png", "slug": "ergotron" },
-        { "name": "ServerLIFT", "logo": "/distributors/server-lift.png", "slug": "server_lift" },
-        { "name": "Allegheny", "logo": "/distributors/allegheny-shredders.jpg", "slug": "allegheny" }
+        { "name": "Ansell", "logo": "/logos/ansell.png", "slug": "ansell" },
+        { "name": "Hubbell", "logo": "/logos/hubbell.png", "slug": "hubbell" },
+        { "name": "Waveshare", "logo": "/logos/waveshare.png", "slug": "waveshare" },
+        { "name": "Ergotron", "logo": "/logos/ergotron.png", "slug": "ergotron" },
+        { "name": "ServerLIFT", "logo": "/logos/server-lift.png", "slug": "server_lift" },
+        { "name": "Allegheny", "logo": "/logos/allegheny-shredders.jpg", "slug": "allegheny" }
       ]
     },
     "cta_section": {
@@ -699,7 +699,7 @@
       "hero": {
         "title": "Ansell",
         "hero_image": "/brands/ansell/hero-ansell.jpg",
-        "brand_logo": "/distributors/ansell.png",
+        "brand_logo": "/logos/ansell.png",
         "description": [
           "Como Distribuidor Autorizado de Ansell en Brasil, Consultimer ofrece soporte técnico y condiciones especiales para la adquisición de toda la línea de productos de la marca.",
           "Ansell es una marca innovadora comprometida con la creación de soluciones avanzadas y tecnologías que resuelven los problemas de los trabajadores, creando un mundo más seguro y protegido. La visión de Ansell es un mundo donde las personas disfruten de una protección óptima contra los riesgos a los que están expuestas."
@@ -753,7 +753,7 @@
       "hero": {
         "title": "Allegheny Shredders",
         "hero_image": "/brands/allegheny/hero-allegheny.jpg",
-        "brand_logo": "/distributors/allegheny-shredders.jpg",
+        "brand_logo": "/logos/allegheny-shredders.jpg",
         "description": [
           "Consultimer es distribuidor autorizado de Allegheny Shredders en Brasil y ofrece soporte técnico y condiciones especiales a sus clientes para la adquisición de los productos de la marca.",
           "La historia de la empresa Allegheny Shredders comenzó hace más de 50 años, cuando John Wagner empezó a construir una trituradora industrial para superar a la trituradora de papel de 7,5 HP, que era la más potente de la época. En 1971, introdujo la primera trituradora industrial de servicio pesado para la industria del papel, abriendo el camino para máquinas cada vez más potentes que llevaron al actual modelo de 300 HP de Allegheny.",
@@ -773,7 +773,7 @@
       "hero": {
         "title": "Ergotron",
         "hero_image": "/brands/ergotron/hero-ergotron.jpg",
-        "brand_logo": "/distributors/ergotron.png",
+        "brand_logo": "/logos/ergotron.png",
         "description": [
           "Como distribuidor autorizado de Ergotron en Brasil, Consultimer ofrece soporte técnico y condiciones especiales para la adquisición de productos Ergotron. Ergotron utiliza un diseño centrado en el ser humano para construir entornos de trabajo cinéticos que ayudan al rendimiento del colaborador. Adapte su espacio de trabajo al movimiento con soportes para monitor, escritorios para trabajar sentado o de pie y estaciones de trabajo móviles.",
           "Ergotron es una empresa de movimiento. Esta ha sido la esencia de Ergotron desde que Harry Sweere fundó la empresa en 1982 y obtuvo patentes para los primeros soportes de inclinación ergonómicos, brazos de montaje y soportes de escritorio. El legado de innovación de Harry Sweere guía cómo la empresa ayuda a los clientes a enfrentar los desafíos actuales y continúa difundiendo los valores esenciales para una vida saludable."
@@ -890,25 +890,25 @@
         "name": "Ansell",
         "slug": "ansell",
         "short_description": "Líder global en soluciones de protección y seguridad.",
-        "logo": "/distributors/ansell.png"
+        "logo": "/logos/ansell.png"
       },
       {
         "name": "Ergotron",
         "slug": "ergotron",
         "short_description": "Soluciones ergonómicas para entornos de trabajo y salud.",
-        "logo": "/distributors/ergotron.png"
+        "logo": "/logos/ergotron.png"
       },
       {
         "name": "ServerLIFT",
         "slug": "server_lift",
         "short_description": "Equipos premium para el manejo seguro de centros de datos.",
-        "logo": "/distributors/server-lift.png"
+        "logo": "/logos/server-lift.png"
       },
       {
         "name": "Allegheny Shredders",
         "slug": "allegheny",
         "short_description": "Líder mundial en equipos para la destrucción de información.",
-        "logo": "/distributors/allegheny-shredders.jpg"
+        "logo": "/logos/allegheny-shredders.jpg"
       }
     ]
   },

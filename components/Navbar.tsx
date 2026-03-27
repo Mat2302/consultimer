@@ -53,7 +53,7 @@ export default function Navbar({ dict }: NavbarProps) {
       <div className='container mx-auto px-6 h-20 flex justify-between items-center'>
         <Link href={getLocalizedHref('/')} className="flex items-center gap-2">
           <div className="relative w-40 h-10">
-            <Image src='/consultimer-logo-branco.png' alt='Consultimer Logo' fill className="object-contain"/>
+            <Image src='/logos/consultimer-white-logo.png' alt='Consultimer Logo' fill className="object-contain"/>
           </div>
         </Link>
         
@@ -82,17 +82,17 @@ export default function Navbar({ dict }: NavbarProps) {
           <div className="flex items-center gap-3">
             <Link href={switchLocale('pt')}>
               <div className={`relative w-8 h-8 transition ${currentLocale === 'pt' ? 'opacity-100' : 'opacity-50'}`}>
-                <Image src='/brasil_logo.png' alt='Brasil Logo' fill className="object-contain"/>
+                <Image src='/logos/brasil_logo.png' alt='Brasil Logo' fill className="object-contain"/>
               </div>
             </Link>
             <Link href={switchLocale('en')}>
               <div className={`relative w-8 h-8 transition ${currentLocale === 'en' ? 'opacity-100' : 'opacity-50'}`}>
-                <Image src='/usa_logo.png' alt='USA Logo' fill className="object-contain"/>
+                <Image src='/logos/usa_logo.png' alt='USA Logo' fill className="object-contain"/>
               </div>
             </Link>
             <Link href={switchLocale('es')}>
               <div className={`relative w-8 h-8 transition ${currentLocale === 'es' ? 'opacity-100' : 'opacity-50'}`}>
-                <Image src='/spain_logo.png' alt='Spain Logo' fill className="object-contain"/>
+                <Image src='/logos/spain_logo.png' alt='Spain Logo' fill className="object-contain"/>
               </div>
             </Link>
           </div>
@@ -123,17 +123,17 @@ export default function Navbar({ dict }: NavbarProps) {
             <div className="flex items-center gap-3">
               <Link href={switchLocale('pt')}>
                 <div className={`relative w-8 h-8 transition ${currentLocale === 'pt' ? 'opacity-100' : 'opacity-50'}`}>
-                  <Image src='/brasil_logo.png' alt='Brasil Logo' fill className="object-contain"/>
+                  <Image src='/logos/brasil_logo.png' alt='Brasil Logo' fill className="object-contain"/>
                 </div>
               </Link>
               <Link href={switchLocale('en')}>
                 <div className={`relative w-8 h-8 transition ${currentLocale === 'en' ? 'opacity-100' : 'opacity-50'}`}>
-                  <Image src='/usa_logo.png' alt='USA Logo' fill className="object-contain"/>
+                  <Image src='/logos/usa_logo.png' alt='USA Logo' fill className="object-contain"/>
                 </div>
               </Link>
               <Link href={switchLocale('es')}>
                 <div className={`relative w-8 h-8 transition ${currentLocale === 'es' ? 'opacity-100' : 'opacity-50'}`}>
-                  <Image src='/spain_logo.png' alt='Spain Logo' fill className="object-contain"/>
+                  <Image src='/logos/spain_logo.png' alt='Spain Logo' fill className="object-contain"/>
                 </div>
               </Link>
             </div>
